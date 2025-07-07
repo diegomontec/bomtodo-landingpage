@@ -1,6 +1,6 @@
 const Carrossel_de_receitas = () => {
   return (
-    <div>Carrossel_de_receitas</div>
+    <div id="contato" >Carrossel_de_receitas</div>
   )
 }
 
