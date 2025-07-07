@@ -1,13 +1,13 @@
 const ConceitoDaLinha = () => {
   return (
-    <section className="flex flex-col md:flex-row bg-gray-50 p-6 md:p-12 rounded-lg relative">
+    <section className="flex flex-col md:flex-row bg-gray-50 p-8 md:p-10 rounded-lg relative">
       {/* Texto */}
-      <div className="md:w-1/2 space-y-4">
+      <div className="md:w-1/2 flex flex-col gap-8 space-y-4 justify-center items-center text-center">
         <h1 className="text-2xl md:text-3xl font-semibold text-gray-900">
           Uma linha criada para quem transforma a cozinha em palco da criatividade.
         </h1>
         <div>
-          <p className="text-4x1 leading-relaxed">
+          <p className="text-lg md:text-2xl leading-relaxed">
             Inspiratto nasceu do desejo de levar até a mesa da família nordestina cortes especiais de frango com qualidade, frescor e sofisticação.
             <br /><br />
             Mais do que uma linha de produtos, é um convite à inspiração diária: transformar o comum em extraordinário, com receitas criativas e saborosas — preparadas com ingredientes que despertam o melhor da gastronomia dentro de casa.
@@ -24,7 +24,7 @@ const ConceitoDaLinha = () => {
         <img
           src="/assets/seloQualidade.png"
           alt="Selo de Qualidade"
-          className="absolute bottom-16 right-10 w-40 h-28 object-contain"
+          className="absolute bottom-12 right-6 w-66 h-50 object-contain"
         />
       </div>
     </section>
