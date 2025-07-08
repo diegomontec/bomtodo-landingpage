@@ -2,7 +2,7 @@ const ConceitoDaLinha = () => {
   return (
     <section className="flex flex-col md:flex-row bg-gray-50 p-8 md:p-10 rounded-lg relative">
       {/* Texto */}
-      <div className="md:w-1/2 flex flex-col gap-8 space-y-4 justify-center items-center text-center">
+      <div className="md:w-1/2 flex flex-col gap-8 space-y-4 justify-center items-center ">
         <h1 className="text-2xl md:text-3xl font-semibold text-gray-900">
           Uma linha criada para quem transforma a cozinha em palco da criatividade.
         </h1>
