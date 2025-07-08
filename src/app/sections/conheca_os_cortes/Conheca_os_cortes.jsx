@@ -2,7 +2,7 @@ const Conheca_os_cortes = () => {
   return (
     <div>
       <div className="flex flex-col items-center justify-center text-center p-8 md:p-14 md:pt-26 gap-20 bg-gray-50 rounded-lg">
-        <h1 className="text-4xl" >Cortes especiais para pratos inesquecíveis.</h1>
+        <h1 className="text-4xl font-bold" >Cortes especiais para pratos inesquecíveis.</h1>
         <p className="text-xl" >São 11 cortes selecionados para quem deseja qualidade e versatilidade no dia a dia.
           <br />Embalagens práticas, frescor garantido e cortes que valorizam seu tempo e seu talento na
           cozinha.
@@ -26,4 +26,4 @@ const Conheca_os_cortes = () => {
   )
 }
 
-export default Conheca_os_cortes
+export default Conheca_os_cortes;

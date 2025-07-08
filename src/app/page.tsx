@@ -12,8 +12,8 @@ export default function Home() {
       <Hero />
       <Conceito_da_linha />
       <Conheca_os_cortes />
-      {/*<Carrosel_de_receitas />
-      <Onde_encontrar /> */}
+      <Carrosel_de_receitas />
+      <Onde_encontrar />
     </main>
   );
 }
