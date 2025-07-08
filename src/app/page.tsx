@@ -8,12 +8,12 @@ import Carrosel_de_receitas from './sections/carrossel_de_receitas/Carrossel_de_
 
 export default function Home() {
   return (
-    <main>
+    <>
       <Hero />
       <Conceito_da_linha />
       <Conheca_os_cortes />
-      {/*<Carrosel_de_receitas />
-      <Onde_encontrar /> */}
-    </main>
+      <Carrosel_de_receitas />
+      <Onde_encontrar />
+    </>
   );
 }
