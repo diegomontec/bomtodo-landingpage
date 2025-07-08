@@ -15,11 +15,7 @@ export default function Home() {
       <Conheca_os_cortes />
       <Carrosel_de_receitas />
       <Onde_encontrar />
-<<<<<<< HEAD
       <Footer></Footer>
-    </main>
-=======
     </>
->>>>>>> 902999f9adb1bab046410bd5fe5b50020cf72ffb
   );
 }
