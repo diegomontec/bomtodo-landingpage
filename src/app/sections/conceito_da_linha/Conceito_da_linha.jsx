@@ -15,7 +15,7 @@ const ConceitoDaLinha = () => {
         </div>
       </div>
 
-      <div className="md:w-1/2 mt-6 md:mt-0 md:pl-8 relative flex items-center justify-center">
+      <div className="md:w-1/2 mt-5 md:mt-0 md:pl-8 relative flex items-center justify-center">
         <img
           src="/assets/fotoChef.png"
           alt="Conceito da linha"

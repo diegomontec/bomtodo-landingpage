@@ -9,13 +9,17 @@ import Footer from './components/footer/Footer';
 
 export default function Home() {
   return (
-    <main>
+    <>
       <Hero />
       <Conceito_da_linha />
       <Conheca_os_cortes />
       <Carrosel_de_receitas />
       <Onde_encontrar />
+<<<<<<< HEAD
       <Footer></Footer>
     </main>
+=======
+    </>
+>>>>>>> 902999f9adb1bab046410bd5fe5b50020cf72ffb
   );
 }
