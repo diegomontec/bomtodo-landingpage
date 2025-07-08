@@ -14,6 +14,7 @@ export default function Home() {
       <Conheca_os_cortes />
       <Carrosel_de_receitas />
       <Onde_encontrar />
+      
     </main>
   );
 }
