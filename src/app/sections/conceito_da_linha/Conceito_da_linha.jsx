@@ -24,7 +24,7 @@ const ConceitoDaLinha = () => {
         <img
           src="/assets/seloQualidade.png"
           alt="Selo de Qualidade"
-          className="absolute bottom-12 right-6 w-66 h-50 object-contain"
+          className="absolute bottom-12 right-6 w-[66px] h-[50px] object-contain"
         />
       </div>
     </section>

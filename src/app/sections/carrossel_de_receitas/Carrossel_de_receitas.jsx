@@ -8,10 +8,22 @@ const Carrossel_de_receitas = () => {
         <p className="text-2xl">Criadas pelo Chef Tarcísio com exclusividade para a linha Inspiratto.</p>
       </div>
       <div className="Carrossel flex flex-col md:flex-row items-center justify-center p-8 md:p-14 bg-gray-50 rounded-lg">
+<<<<<<< HEAD
         <Carousel></Carousel>
       </div>
     </div>
   );
 };
 
+=======
+          <img
+            src="assets/imagem1-filé.png"
+            alt="Filé de peito em cubos"
+            className="w-[170px] h-[180px] rounded-lg object-cover"
+          />
+      </div>
+    </div>
+  )
+}
+>>>>>>> 405cd8bd37c34944a9689805aeae256fe9066036
 export default Carrossel_de_receitas;

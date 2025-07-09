@@ -9,6 +9,7 @@ const data = [
 
 const Carousel = () => {
   return (
+<<<<<<< HEAD
     <Swiper
       slidesPerView={3} // Exibe 3 itens por vez
       spaceBetween={10} // Espaço entre os slides
@@ -29,3 +30,9 @@ const Carousel = () => {
 };
 
 export default Carousel;
+=======
+    <div>Carousel</div>
+  )
+}
+export default Carousel
+>>>>>>> 405cd8bd37c34944a9689805aeae256fe9066036
