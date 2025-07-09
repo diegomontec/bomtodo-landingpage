@@ -6,13 +6,13 @@ const Carrossel_de_receitas = () => {
         <p className="text-2xl" >Criadas pelo Chef Tarcísio com exclusividade para a linha Inspiratto.</p>
       </div>
       <div className="Carrossel flex flex-col md:flex-row items-center justify-center p-8 md:p-14 bg-gray-50 rounded-lg">
-          <img 
-          src="assets/imagem1-filé.png" alt=""
-          className="w-170 h-180 rounded-lg object-cover"
+          <img
+            src="assets/imagem1-filé.png"
+            alt="Filé de peito em cubos"
+            className="w-[170px] h-[180px] rounded-lg object-cover"
           />
       </div>
     </div>
   )
 }
-
-export default Carrossel_de_receitas
+export default Carrossel_de_receitas;
