@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <div>
-      <div className="flex justify-around py-36 px-20 items-center bg-gray-50" >
+      <div className="flex justify-around py-16 md:py-36 px-4 md:px-20 items-center bg-gray-50" >
         <h1 className="text-3xl font-bold" >Alta gastronomia no seu dia a dia</h1>
         <div className=" flex flex-col" >
           <a href="">Sobre a Linha</a>
@@ -16,5 +16,4 @@ const Footer = () => {
     </div>
   )
 }
-
 export default Footer

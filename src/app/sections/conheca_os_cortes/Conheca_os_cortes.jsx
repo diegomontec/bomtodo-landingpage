@@ -14,11 +14,11 @@ const Conheca_os_cortes = () => {
       </div>
       <div className="flex flex-col md:flex-row items-center justify-center gap-24 p-8 md:p-14 bg-gray-50 rounded-lg">
         {/* FILÉ DE PEITO – CUBO */}
-        <div className="relative w-60 h-70 rounded-lg overflow-hidden group">
+        <div className="relative w-60 h-[70px] rounded-lg overflow-hidden group">
           <img
             src="assets/imagem1-filé.png"
             alt="Filé de peito em cubos"
-            className="w-60 h-70 object-cover"
+            className="w-60 h-[70px] object-cover"
           />
           <div className="absolute bottom-3 left-3 right-3 text-white text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
             <strong className="block text-base">Filé de peito</strong>
@@ -27,11 +27,11 @@ const Conheca_os_cortes = () => {
         </div>
 
         {/* COXA COM SOBRECOXA – SEM PELE */}
-        <div className="relative w-60 h-70 rounded-lg overflow-hidden group">
+        <div className="relative w-60 h-[70px] rounded-lg overflow-hidden group">
           <img
             src="assets/imagem2-sobrecoxa.png"
             alt="Coxa com sobrecoxa sem pele"
-            className="w-60 h-70 object-cover"
+            className="w-60 h-[70px] object-cover"
           />
           <div className="absolute bottom-3 left-3 right-3 text-white text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
             <strong className="block text-base">Coxa com sobrecoxa</strong>
@@ -40,11 +40,11 @@ const Conheca_os_cortes = () => {
         </div>
 
         {/* TULIPA DA COXINHA */}
-        <div className="relative w-60 h-70 rounded-lg overflow-hidden group">
+        <div className="relative w-60 h-[70px] rounded-lg overflow-hidden group">
           <img
             src="assets/imagem3-tulipa.png"
             alt="Tulipa da coxinha"
-            className="w-60 h-70 object-cover"
+            className="w-60 h-[70px] object-cover"
           />
           <div className="absolute bottom-3 left-3 right-3 text-white text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
             <strong className="block text-base">Tulipa da coxinha</strong>
