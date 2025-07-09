@@ -12,11 +12,8 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: "Inspiratto by BomTodo",
-  description: "Desc",
-  viewport: "width=device-width, initial-scale=1",
-
-  title: "Inspiratto by Bom Todo",
   description: "",
+  viewport: "width=device-width, initial-scale=1",
 };
 
 export default function RootLayout({
