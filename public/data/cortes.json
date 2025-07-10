@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "imagem": "assets/imagem1-filé.png",
+    "alt": "Filé de peito em cubos",
+    "titulo": "Filé de peito",
+    "descricao": "Ideal para strogonoff e espetinhos"
+  },
+  {
+    "id": 2,
+    "imagem": "assets/imagem2-sobrecoxa.png",
+    "alt": "Coxa com sobrecoxa sem pele",
+    "titulo": "Coxa com sobrecoxa",
+    "descricao": "Perfeito para assados com ervas"
+  },
+  {
+    "id": 3,
+    "imagem": "assets/imagem3-tulipa.png",
+    "alt": "Tulipa da coxinha",
+    "titulo": "Tulipa da coxinha",
+    "descricao": "Petisco crocante e suculento"
+  }
+]

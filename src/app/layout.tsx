@@ -1,19 +1,29 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-import { Poppins } from "next/font/google";
+import { Playfair_Display, Inter, Poppins } from "next/font/google";
 
-const poppins = Poppins({
+export const titulo = Playfair_Display({
+  weight: "600",
   subsets: ["latin"],
-  weight: ["100", "300", "400", "600", "700", "900"],
-  variable: "--font-poppins",
-  display: "swap",
+  variable: "--font-titulo"
+});
+
+export const descricao = Inter({
+  weight: "300",
+  subsets: ["latin"],
+  variable: "--font-descricao"
+});
+
+export const button = Poppins({
+  weight: "200",
+  subsets: ["latin"],
+  variable: "--font-button"
 });
 
 export const metadata: Metadata = {
   title: "Inspiratto by BomTodo",
   description: "",
-  viewport: "width=device-width, initial-scale=1",
 };
 
 export default function RootLayout({
@@ -22,8 +32,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt-BR" className={poppins.variable}>
-      <body className="font-sans">{children}</body>
+    <html
+      lang="pt-BR"
+      className={`${titulo.variable} ${descricao.variable} ${button.variable}`}
+    >
+      <body>{children}</body>
     </html>
   );
 }
