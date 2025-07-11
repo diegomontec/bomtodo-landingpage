@@ -1,10 +1,9 @@
 const ConceitoDaLinha = () => {
   return (
     <section className="flex flex-col md:flex-row bg-gray-100 rounded-lg relative">
-      <div className="w-full md:w-1/2 flex flex-col gap-8 justify-start px-6 py-12 sm:px-8 sm:py-14 md:px-16 md:py-20 lg:px-24 lg:py-28">
+      <div className="w-full md:w-1/2 flex flex-col gap-18 justify-start px-6 py-12 sm:px-8 sm:py-14 md:px-16 md:py-20 lg:px-24 lg:py-28">
         <h1 className="text-4xl sm:text-5xl font-black font-titulo text-gray-900 text-left">
-          Uma linha criada para quem transforma a cozinha em palco da
-          criatividade.
+          Uma linha criada para quem transforma a cozinha em palco da criatividade.
         </h1>
 
         <div className="flex flex-col gap-6 text-2xl sm:text-3xl md:text-2xl font-descricao leading-relaxed text-gray-700 text-left">

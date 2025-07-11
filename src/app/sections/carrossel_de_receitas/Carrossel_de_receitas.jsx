@@ -6,7 +6,7 @@ const Carrossel_de_receitas = () => {
   return (
     <section id="contato" className="bg-gray-50 rounded-lg px-6 py-12 sm:px-8 sm:py-14 md:px-16 md:py-20 lg:px-24 lg:py-28">
       <div className="flex flex-col items-center justify-center text-center gap-12">
-        <div className="flex flex-col gap-6 max-w-3xl">
+        <div className="flex flex-col gap-6 w-full">
           <h1 className="text-4xl sm:text-5xl font-bold font-titulo text-gray-900">
             Gourmet em casa, sem complicação!
           </h1>

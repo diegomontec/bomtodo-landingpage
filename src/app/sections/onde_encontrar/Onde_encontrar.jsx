@@ -2,15 +2,18 @@ import Button from '@/app/components/button/Button';
 
 const Onde_encontrar = () => {
   return (
-    <div>
-      <div className='p-8 md:p-20 justify-center items-center flex flex-col gap-20 text-center bg-gray-50 rounded-lg'>
-        <h1 className="text-2xl md:text-3xl font-semibold text-gray-900">
+    <section className="flex flex-col bg-black rounded-lg relative">
+      <div className="w-full flex flex-col gap-18 justify-start items-center px-6 py-12 sm:px-8 sm:py-14 md:px-16 md:py-20 lg:px-24 lg:py-28 text-center">
+        <h1 className="text-2xl sm:text-3xl md:text-3xl font-black font-titulo text-gray-100">
           A linha Inspiratto está disponível nas principais redes da Paraíba e do Rio Grande do Norte.
+          <br />
           Encontre o freezer exclusivo no setor de resfriados dos supermercados parceiros.
         </h1>
+
         <Button>Quero encontrar um ponto de venda</Button>
       </div>
-    </div>
-  )
-}
-export default Onde_encontrar
+    </section>
+  );
+};
+
+export default Onde_encontrar;

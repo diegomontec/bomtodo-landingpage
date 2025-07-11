@@ -1,23 +1,79 @@
 [
   {
     "id": 1,
-    "imagem": "assets/imagem1-filé.png",
+    "imagem": "/assets/imagem1-file.png",
     "alt": "Filé de peito em cubos",
     "titulo": "Filé de peito",
     "descricao": "Ideal para strogonoff e espetinhos"
   },
   {
     "id": 2,
-    "imagem": "assets/imagem2-sobrecoxa.png",
+    "imagem": "/assets/imagem2-sobrecoxa.png",
     "alt": "Coxa com sobrecoxa sem pele",
     "titulo": "Coxa com sobrecoxa",
     "descricao": "Perfeito para assados com ervas"
   },
   {
     "id": 3,
-    "imagem": "assets/imagem3-tulipa.png",
+    "imagem": "/assets/imagem3-tulipa.png",
     "alt": "Tulipa da coxinha",
     "titulo": "Tulipa da coxinha",
     "descricao": "Petisco crocante e suculento"
+  },
+  {
+    "id": 4,
+    "imagem": "/assets/imagem4-cortes-assados.png",
+    "alt": "Cortes para assados",
+    "titulo": "Assado de domingo",
+    "descricao": "Perfeito para preparar com legumes no forno"
+  },
+  {
+    "id": 5,
+    "imagem": "/assets/imagem5-meio-asas.png",
+    "alt": "Meio da asa temperado",
+    "titulo": "Meio da asa",
+    "descricao": "Fácil de preparar na airfryer ou grelha"
+  },
+  {
+    "id": 6,
+    "imagem": "/assets/imagem6-frango-temperado.png",
+    "alt": "Frango temperado",
+    "titulo": "Corte temperado",
+    "descricao": "Para o preparo prático do dia a dia"
+  },
+  {
+    "id": 7,
+    "imagem": "/assets/imagem7-corte-grelhado.png",
+    "alt": "Filé grelhado",
+    "titulo": "Filé grelhado",
+    "descricao": "Leve, nutritivo e rápido de fazer"
+  },
+  {
+    "id": 8,
+    "imagem": "/assets/imagem8-cortes-recheados.png",
+    "alt": "Frango recheado",
+    "titulo": "Recheado gourmet",
+    "descricao": "Experimente com queijos e ervas"
+  },
+  {
+    "id": 9,
+    "imagem": "/assets/imagem9-filetinho.png",
+    "alt": "Filezinho de frango",
+    "titulo": "Filezinho",
+    "descricao": "Ideal para empanar e servir com molhos"
+  },
+  {
+    "id": 10,
+    "imagem": "/assets/imagem10-moído.png",
+    "alt": "Frango moído",
+    "titulo": "Frango moído",
+    "descricao": "Perfeito para almôndegas e recheios"
+  },
+  {
+    "id": 11,
+    "imagem": "/assets/imagem11-espeto.png",
+    "alt": "Espetinho de frango",
+    "titulo": "Espetinho",
+    "descricao": "Pronto para grelha ou churrasqueira"
   }
 ]
