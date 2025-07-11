@@ -18,7 +18,7 @@ const Carrossel_de_receitas = () => {
           </p>
         </div>
 
-        <div className="w-full">
+        <div className="w-full h-full">
           <Carousel />
         </div>
       </div>
