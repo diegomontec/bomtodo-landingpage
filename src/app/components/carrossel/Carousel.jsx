@@ -3,6 +3,8 @@
 import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
+import Button from "@/app/components/button/Button";
+
 
 
 import 'swiper/css';
@@ -23,10 +25,8 @@ const Carousel = () => {
     <div className="w-full px-4 py-6">
       <Swiper
         modules={[Navigation, Pagination, Autoplay]}
-        slidesPerView={1}
-        spaceBetween={20}
-        navigation
-        pagination={{ clickable: true }}
+        slidesPerView={3}
+        spaceBetween={6}
         autoplay={{ delay: 3000, disableOnInteraction: false }}
         loop
         className="w-full h-[300px]"
@@ -44,9 +44,9 @@ const Carousel = () => {
               <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-center items-center text-white px-4 text-center">
                 <h2 className="text-2xl font-bold mb-2">{item.title}</h2>
                 <p className="mb-4">{item.description}</p>
-                <a href="https://www.youtube.com/watch?v=rC3qkJMBaQ8"><button className="bg-white cursor-pointer text-black px-5 py-4 rounded-full font-semibold hover:bg-gray-200 transition-colors">
+                <a href="https://www.youtube.com/watch?v=rC3qkJMBaQ8"><Button className="px-7 py-2" >
                   Assistir vídeo da receita
-                  </button>
+                  </Button>
                 </a>
               </div>
             </div>
