@@ -22,8 +22,8 @@ export const button = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Inspiratto by BomTodo",
-  description: "",
+  title: 'Inspiratto',
+  description: '',
 };
 
 export default function RootLayout({
