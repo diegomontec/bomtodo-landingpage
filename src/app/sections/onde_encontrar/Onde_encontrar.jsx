@@ -10,7 +10,7 @@ const Onde_encontrar = () => {
           Encontre o freezer exclusivo no setor de resfriados dos supermercados parceiros.
         </h1>
 
-        <Button>Quero encontrar um ponto de venda</Button>
+        <Button className>Quero encontrar um ponto de venda</Button>
       </div>
     </section>
   );
