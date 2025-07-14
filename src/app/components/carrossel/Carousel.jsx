@@ -55,8 +55,16 @@ const Carousel = () => {
         modules={[Navigation, Pagination, Autoplay]}
         // slidesPerView={2}
         spaceBetween={6}
+
+        style={{
+          'padding': '23px 0px',
+          '--swiper-pagination-color': '#fff',
+        }}
         // navigation
-        pagination={{ clickable: true }}
+        pagination={{
+          clickable: true,
+          dynamicBullets: true,
+        }}
         autoplay={{ delay: 3000, disableOnInteraction: false }}
         loop
         className="w-full h-[300px]"
@@ -85,6 +93,7 @@ const Carousel = () => {
                   <Button className="px-7 py-2">Receita em vídeo </Button>
                 </a>
               </div>
+
             </div>
           </SwiperSlide>
         ))}
