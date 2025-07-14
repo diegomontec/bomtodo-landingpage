@@ -1,7 +1,7 @@
 export default function Button({children}) {
     return (
         <div>
-            <button className="cursor-pointer bg-white text-black font-button font-semibold py-4 px-14 rounded-md shadow-md text-lg transition-colors duration-200 hover:bg-black hover:border-2 hover:text-white">
+            <button className="flex cursor-pointer bg-bg-creme text-bg-azul font-button py-4 px-14 rounded-md shadow-md transition-colors duration-200 hover:bg-[#ffffff] hover:text-bg-azul">
                 {children}
             </button>
         </div>

@@ -1,29 +1,29 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-import { Playfair_Display, Inter, Poppins } from "next/font/google";
+import { Inter, Poppins } from "next/font/google";
 
- const titulo = Playfair_Display({
-  weight: "600",
+const titulo = Poppins({
+  weight: "800",
   subsets: ["latin"],
-  variable: "--font-titulo"
+  variable: "--font-titulo",
 });
 
- const descricao = Inter({
+const button = Poppins({
+  weight: "800",
+  subsets: ["latin"],
+  variable: "--font-button",
+});
+
+const descricao = Inter({
   weight: "300",
   subsets: ["latin"],
-  variable: "--font-descricao"
-});
-
- const button = Poppins({
-  weight: "200",
-  subsets: ["latin"],
-  variable: "--font-button"
+  variable: "--font-descricao",
 });
 
 export const metadata: Metadata = {
-  title: 'Inspiratto',
-  description: '',
+  title: "Inspiratto",
+  description: "",
 };
 
 export default function RootLayout({

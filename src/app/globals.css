@@ -1,7 +1,11 @@
 @import "tailwindcss";
 
 @theme {
-  --font-titulo: var(--font-playfair);
+  --font-titulo: var(--font-poppins);
   --font-descricao: var(--font-inter);
   --font-button: var(--font-poppins);
+
+  --color-bg-azul: #192648;
+  --color-bg-creme: #eee1c6;
+  --color-bg-gradiente: radial-gradient(180deg, #b17a19 0%, #fffede 100%);
 }

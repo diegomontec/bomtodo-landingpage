@@ -6,11 +6,11 @@ const Hero = () => {
       <img
         src="/assets/Heroimg.jpg"
         alt="Fundo hero"
-        className="absolute inset-0 w-full h-full object-cover"
+        className="absolute inset-0 w-full h-full object-cover brightness-75"
       />
 
       <div className="relative flex items-center justify-center h-full text-white text-center">
-        <div className="flex gap-8 flex-col justify-start">
+        <div className="flex gap-8 flex-col justify-center items-center">
           <h1 className="text-5xl mb-2 font-titulo">
             A INSPIRAÇÃO QUE TRANSFORMA RECEITAS
           </h1>
