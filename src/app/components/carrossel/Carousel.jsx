@@ -57,9 +57,8 @@ const Carousel = () => {
         spaceBetween={6}
 
         style={{
-          'gap': '100px',
           'padding-bottom': '30px',
-          '--swiper-pagination-color': '#fff',
+          '--swiper-pagination-color': '#192648',
         }}
         // navigation
         pagination={{

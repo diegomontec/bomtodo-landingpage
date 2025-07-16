@@ -1,12 +1,12 @@
 const ConceitoDaLinha = () => {
   return (
-    <section className="flex flex-col md:flex-row bg-bg-creme text-bg-azul rounded-lg relative">
-      <div className="w-full md:w-1/2 flex flex-col gap-18 justify-start px-6 py-12 sm:px-8 sm:py-14 md:px-16 md:py-20 lg:px-24 lg:py-28">
-        <h1 className="text-4xl sm:text-5xl font-titulo text-left">
+    <section className="flex flex-col lg:flex-row md:flex-col bg-bg-creme text-bg-azul rounded-lg relative min-h-screen items-center">
+      <div className="w-full flex flex-col gap-18 justify-start px-6 py-12 sm:px-8 sm:py-14 md:px-8 md:py-14 lg:px-24 lg:py-28">
+        <h1 className="text-4xl sm:text-5xl md:text-5x1 font-titulo text-left">
           Uma linha criada para quem transforma a cozinha em palco da criatividade.
         </h1>
 
-        <div className="flex flex-col gap-6 text-2xl sm:text-3xl md:text-2xl font-descricao leading-relaxed text-left">
+        <div className="flex flex-col gap-6 text-2xl sm:text-3xl md:text-3xl font-descricao leading-relaxed text-left">
           <p>
             Inspiratto nasceu do desejo de levar até a mesa da família
             nordestina cortes especiais de frango com qualidade, frescor e
@@ -20,19 +20,23 @@ const ConceitoDaLinha = () => {
           </p>
         </div>
       </div>
-
-      <div className="w-full md:w-1/2 relative flex items-center justify-center px-6 py-12 sm:px-8 md:px-12 lg:px-16">
-        <img
-          src="/assets/fotoChef.png"
-          alt="Conceito da linha"
-          className="w-full h-auto object-cover rounded-2xl shadow-md"
-        />
-        <img
-          src="/assets/seloQualidade.png"
-          alt="Selo de Qualidade"
-          className="absolute bottom-4 right-4 w-32 sm:w-28 md:w-32 lg:w-64 h-auto object-contain"
-        />
+    
+      <div className="w-full  px-6 py-12 sm:px-8 md:px-8 lg:px-16">
+        <div className="relative w-full flex items-center justify-center">
+          <img
+            src="/assets/fotoChef.png"
+            alt="Conceito da linha"
+            className="w-full h-auto object-cover rounded-2xl shadow-md"
+          />
+          <img
+            src="/assets/seloQualidade.png"
+            alt="Selo de Qualidade"
+            className="absolute bottom-4 right-4 w-20 sm:w-28 md:w-28 lg:w-40 h-auto object-contain z-10"
+          />
+        </div>
       </div>
+
+
     </section>
   );
 };

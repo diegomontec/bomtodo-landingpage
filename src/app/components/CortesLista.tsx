@@ -8,6 +8,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
+
 type Corte = {
   id: number;
   imagem: string;
@@ -37,6 +38,10 @@ export default function CortesLista() {
         spaceBetween={6}
         autoplay={{ delay: 3000 }}
         // slidesPerView={3.2}
+        pagination={{
+          clickable: true,
+          dynamicBullets: true,
+        }}
         
         breakpoints={{
           0: { slidesPerView: 3.2 },
@@ -45,24 +50,35 @@ export default function CortesLista() {
           1024: { slidesPerView: 4.2 },
         }}
         className="pb-10"
+        style={{
+          paddingBottom: '30px',
+          // @ts-ignore
+          '--swiper-pagination-color': '#eee1c6',
+        }}
       >
         {cortes.map(({ id, imagem, alt, titulo, descricao }) => (
-          <SwiperSlide key={id}>
-          <div className="group relative w-full h-80 rounded-xl gap-6 overflow-hidden shadow-md bg-bg-creme border border-bg-creme transition-transform duration-500">
-              <Image
-                src={imagem}
-                alt={alt}
-                fill
-                className="object-cover"
-              />
-              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-bg-azul/50 to-transparent p-4 text-bg-creme">
-                <h3 className="font-bold text-lg font-titulo">{titulo}</h3>
-              </div>
-              <div className="absolute inset-0 flex items-center justify-center bg-bg-azul bg-opacity-80 text-bg-creme opacity-0 group-hover:opacity-800 group-focus-within:opacity-100 transition-opacity duration-300 text-center p-4 text-md font-descricao">
-                {descricao}
-              </div>
+        <SwiperSlide key={id}>
+          <div className="group relative w-full h-80 rounded-xl overflow-hidden shadow-md border border-bg-creme transition-transform duration-500">
+            
+            <Image
+              src={imagem}
+              alt={alt}
+              fill
+              className="object-cover transition-transform duration-500 group-hover:scale-110"
+            />
+
+            <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent z-10 pointer-events-none" />
+
+            <div className="absolute bottom-0 left-0 right-0 z-20 p-4 text-bg-creme">
+              <h3 className="font-bold text-lg font-titulo">{titulo}</h3>
             </div>
-          </SwiperSlide>
+
+            <div className="absolute inset-0 flex items-center justify-center bg-bg-azul/80 text-bg-creme opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-center p-4 text-md font-bold font-descricao z-30">
+              {descricao}
+            </div>
+          </div>
+        </SwiperSlide>
+
         ))}
       </Swiper>
     </div>
