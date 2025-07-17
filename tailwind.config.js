@@ -10,7 +10,6 @@ module.exports = {
       colors: {
         'bg-azul': '#192648',
         'bg-creme': '#eee1c6',
-        'bg-gradiente': 'radial-gradient(180deg, #b17a19 0%, #fffede 100%)'
       },
     },
   },
