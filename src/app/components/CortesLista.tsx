@@ -52,7 +52,6 @@ export default function CortesLista() {
         className="pb-10"
         style={{
           paddingBottom: '30px',
-          // @ts-ignore
           '--swiper-pagination-color': '#eee1c6',
         }}
       >
