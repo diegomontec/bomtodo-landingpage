@@ -52,7 +52,7 @@ export default function CortesLista() {
         className="pb-10"
         style={{
           paddingBottom: '30px',
-          '--swiper-pagination-color': '#eee1c6',
+          ['--swiper-pagination-color' as string]: '#eee1c6',
         }}
       >
         {cortes.map(({ id, imagem, alt, titulo, descricao }) => (
