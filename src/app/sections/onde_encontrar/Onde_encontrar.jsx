@@ -61,7 +61,7 @@ const estados = [
         loja: "FAVORITO (PONTA NEGRA)",
         endereco: "AV. ENGENHEIRO ROBERTO FREIRE",
         numero: "1460",
-        bairro: "CAMPIM MACIO",
+        bairro: "CAPIM MACIO",
       },
     ],
   },
