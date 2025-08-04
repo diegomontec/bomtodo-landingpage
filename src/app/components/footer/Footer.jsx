@@ -11,17 +11,18 @@ const Footer = () => {
 
         <div className="flex gap-16">
           <div className="flex flex-col gap-3 font-descricao text-left">
-            <a href="/sobre">Sobre a Linha</a>
-            <a href="/receitas">Receitas</a>
+            <a href="#">Sobre a Linha</a>
+            <a href="#">Receitas</a>
           </div>
           <div className="flex flex-col gap-3 font-descricao text-left">
-            <a href="/cortes">Cortes</a>
-            <a href="#">Fale Conosco</a>
+            <a href="#">Cortes</a>
+            <a href="#">Onde encontrar</a>
           </div>
 
           <div className="flex flex-col gap-3 font-descricao text-left">
             <a href="#">Instagram</a>
             <a href="#">Youtube</a>
+            <a href="#">Tiktok</a>
           </div>
         </div>
       </div>
