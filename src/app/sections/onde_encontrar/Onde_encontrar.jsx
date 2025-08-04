@@ -153,7 +153,6 @@ export default function Onde_encontrar() {
                 <tr>
                   <th className="p-2 border">Cidade</th>
                   <th className="p-2 border">Loja</th>
-                  <th className="p-2 border">CNPJ</th>
                   <th className="p-2 border">Endereço</th>
                   <th className="p-2 border">Número</th>
                   <th className="p-2 border">Bairro</th>
