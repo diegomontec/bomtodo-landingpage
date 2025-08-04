@@ -6,7 +6,7 @@ const CortesLista = lazy(() => import('@/app/components/CortesLista'));
 
 const Conheca_os_cortes = () => {
   return (
-    <section
+    <section id="cortes"
       className="bg-bg-azul text-bg-creme px-6 py-16 sm:px-8 sm:py-20 md:px-16 md:py-28 lg:px-24 lg:py-32"
       aria-labelledby="titulo-cortes"
     >

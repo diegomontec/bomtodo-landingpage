@@ -4,16 +4,17 @@ const Hero = () => {
   return (
     <div className="relative h-screen w-full ">
       <img
-        src="/assets/Heroimg.jpg"
+        src="/assets/BOM TODO - CHEF - SELO.jpg"
         alt="Fundo hero"
-        className="absolute inset-0 w-full h-full object-cover brightness-75"
+        className="absolute inset-0 w-full h-full object-cover"
       />
 
       <div className="relative flex items-center justify-center h-full text-white text-center">
         <div className="flex gap-8 flex-col justify-center items-center">
-          <h1 className="text-5xl mb-2 font-titulo">
-            A INSPIRAÇÃO QUE TRANSFORMA RECEITAS
-          </h1>
+          <div className="text-5xl mb-2">
+            <p className="font-extralight">A INSPIRAÇÃO QUE</p>
+            <p className="font-titulo">TRANSFORMA RECEITAS</p>
+          </div>
           <Button href="#contato">Você, o chef da casa!</Button>
         </div>
       </div>

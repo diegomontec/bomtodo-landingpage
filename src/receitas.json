@@ -1,0 +1,180 @@
+[
+  {
+    "id": "1",
+    "titulo": "Medalhão ao Molho de Laranja e Bacon com Purê de Batata Doce",
+    "slug": "medalhao-laranja-bacon-pure",
+    "image": "/assets/medalhao-laranja-bacon-pure.jpg",
+    "ingredientes": [
+      "200g de medalhão de frango Inspiratto",
+      "Tempero Inspiratto",
+      "100g de bacon",
+      "Suco de 3 laranjas",
+      "1 colher de açúcar",
+      "300g de batata doce",
+      "150ml de leite de coco",
+      "30g de manteiga",
+      "Hortelã fresca",
+      "Sal e pimenta-do-reino"
+    ],
+    "modoDePreparo": [
+      "Tempere os medalhões com tempero Inspiratto e deixe apurar o tempero por 15 minutos.",
+      "Corte o bacon em cubos e frite. Reserve os cubos e mantenha a gordura na panela.",
+      "Na gordura do bacon, sele os medalhões. Com eles dourados, adicione o bacon, o suco de laranja e o açúcar. Cozinhe em fogo médio por 10 minutos ou até reduzir.",
+      "Para o purê: com a batata doce cozida e amassada, misture em fogo médio o leite de coco, a manteiga, sal, pimenta e a hortelã picada. Mexa até obter um purê homogêneo."
+    ],
+    "video": "https://www.youtube.com/watch?v=EXEMPLO1"
+  },
+  {
+    "id": "2",
+    "titulo": "Meio da Asa de Frango na Airfryer com Molho Blue Cheese",
+    "slug": "asa-airfryer-blue-cheese",
+    "image": "/assets/asa-airfryer-blue-cheese.jpg",
+    "ingredientes": [
+      "400g de meio da asa",
+      "Tempero Inspiratto",
+      "1 colher de mostarda",
+      "1 colher de mel de engenho",
+      "1 colher de shoyu",
+      "Gergelim",
+      "1 caixinha de creme de leite",
+      "100g de blue cheese",
+      "Sal"
+    ],
+    "modoDePreparo": [
+      "Em um bowl, coloque o frango e misture com o tempero Inspiratto, o shoyu, o mel e a mostarda. Ajuste o sal e reserve na geladeira por 30 minutos coberto com plástico filme.",
+      "Em uma panela, aqueça o creme de leite em fogo baixo e adicione o blue cheese picado. Mexa até derreter completamente.",
+      "Leve o frango à airfryer pré-aquecida a 180ºC por 30 minutos ou até dourar.",
+      "Sirva com gergelim por cima e o molho de blue cheese."
+    ],
+    "video": "https://www.youtube.com/watch?v=EXEMPLO2"
+  },
+  {
+    "id": "3",
+    "titulo": "Coxa Creme ao Barbecue",
+    "slug": "coxa-creme-barbecue",
+    "image": "/assets/coxa-creme.jpg",
+    "ingredientes": [
+      "500g de coxinha da asa - Corte Inspiratto",
+      "Tempero Inspiratto",
+      "500g de batata inglesa",
+      "100g de cream cheese",
+      "Cebolinha picada a gosto",
+      "200g de mussarela bem picada",
+      "300g de farinha de trigo",
+      "5 ovos",
+      "300g de farinha panko",
+      "Sal",
+      "300g de ketchup",
+      "1 colher de azeite",
+      "1/2 cebola",
+      "1 dente de alho",
+      "1 colher (sopa) de açúcar mascavo",
+      "100ml de vinagre de maçã",
+      "1 colher (sopa) de molho inglês",
+      "Pimenta-do-reino",
+      "Água"
+    ],
+    "modoDePreparo": [
+      "Cozinhe as batatas com casca. Amasse-as ainda mornas, adicione cream cheese, mussarela picada, cebolinha e ajuste o sal. Leve à geladeira para esfriar.",
+      "Tempere as coxinhas com o tempero Inspiratto e doure-as em frigideira com azeite. Desfie-as após dourar e misture à massa de batata.",
+      "Modele as mini coxinhas usando os ossos como base. Empane na farinha de trigo, depois no ovo batido e por fim na farinha panko. Frite em óleo quente.",
+      "Para o molho barbecue: refogue a cebola e o alho. Adicione o açúcar mascavo, depois o vinagre, ketchup, molho inglês e pimenta. Cozinhe até reduzir e bata no processador para homogeneizar."
+    ],
+    "video": "https://www.youtube.com/watch?v=EXEMPLO3"
+  },
+  {
+    "id": "4",
+    "titulo": "Frango Xadrez com Massa Fresca",
+    "slug": "frango-xadrez-massa-fresca",
+    "image": "/assets/frango-xadrez-massa-fresca.jpg",
+    "ingredientes": [
+      "200g de frango em cubos Inspiratto",
+      "Tempero Inspiratto",
+      "20ml de azeite",
+      "1/2 pimentão vermelho picado",
+      "1/2 pimentão amarelo picado",
+      "1/2 cebola roxa picada",
+      "1/2 pimenta dedo-de-moça",
+      "1 colher de maizena",
+      "5g de gengibre",
+      "1/2 alho-poró",
+      "1 xícara de shoyu",
+      "1 colher de açúcar",
+      "1 colher de óleo de gergelim",
+      "Água",
+      "150g de massa fresca",
+      "Cebolinha a gosto",
+      "1 colher de gergelim"
+    ],
+    "modoDePreparo": [
+      "Marine o frango com o tempero Inspiratto, 2 colheres de shoyu, 1/2 colher de maizena e gengibre picado.",
+      "Doure os cubos de frango em panela com azeite. Reserve.",
+      "Na mesma panela, doure a cebola, os pimentões e o alho-poró. Adicione o restante do shoyu, a pimenta e volte com o frango. Acrescente água e açúcar. Finalize com óleo de gergelim.",
+      "Sirva com a massa fresca cozida e finalize com gergelim e cebolinha."
+    ],
+    "video": "https://www.youtube.com/watch?v=EXEMPLO4"
+  },
+  {
+    "id": "5",
+    "titulo": "Filé de Coxa com Sobrecoxa e Risoto de Tomate Seco, Nata e Bacon",
+    "slug": "file-coxa-risoto-tomate-nata",
+    "image": "/assets/file-coxa-risoto-tomate-nata.png",
+    "ingredientes": [
+      "1 pacote de coxa com sobrecoxa desossada Inspiratto",
+      "Tempero Inspiratto",
+      "30ml de azeite",
+      "100g de arroz arbóreo",
+      "1 cebola branca",
+      "200ml de vinho branco",
+      "1 pacote de caldo de legumes",
+      "1/2 alho-poró",
+      "100g de mussarela",
+      "100g de tomate seco",
+      "1 colher (sopa) de nata",
+      "80g de parmesão",
+      "50g de bacon",
+      "5 ovos",
+      "200g de farinha panko",
+      "200g de farinha de trigo",
+      "1 garrafa de óleo para fritar",
+      "Folhas de rúcula",
+      "Sal"
+    ],
+    "modoDePreparo": [
+      "Tempere os filés com o tempero Inspiratto e sal. Empane passando na farinha de trigo, depois nos ovos batidos e por último na panko. Reserve.",
+      "Para o risoto: refogue a cebola e o alho-poró. Adicione o arroz cru e o vinho. Após evaporar, vá adicionando o caldo de legumes.",
+      "Quando quase no ponto, adicione o tomate seco picado e o bacon frito. Finalize com parmesão e nata.",
+      "Frite os filés em óleo quente. Finalize com mussarela por cima e leve ao forno até gratinar. Sirva com rúcula fresca."
+    ],
+    "video": "https://www.youtube.com/watch?v=EXEMPLO5"
+  },
+  {
+    "id": "6",
+    "titulo": "Frango Cozido na Cerveja com Arroz Bom Todo",
+    "slug": "frango-cerveja-arroz-bom-todo",
+    "image": "/assets/frango-cerveja-arroz-bom-todo.png",
+    "ingredientes": [
+      "1 frango inteiro Bom Todo Inspiratto",
+      "Tempero Inspiratto",
+      "400g de cebola",
+      "400g de cenoura",
+      "4 dentes de alho laminado",
+      "1 salsão",
+      "1 extrato de tomate",
+      "300ml de cerveja",
+      "1 maço de coentro",
+      "200g de arroz parboilizado",
+      "3 ovos Bom Todo",
+      "Dueto milho e ervilha Bom Todo",
+      "50g de batata palha",
+      "Sal"
+    ],
+    "modoDePreparo": [
+      "Tempere o frango com o tempero Inspiratto. Selar todos os pedaços em panela quente e reservar.",
+      "Na mesma panela, refogue a cenoura, cebola, alho e salsão em cubos. Adicione o extrato de tomate para deglacear o fundo.",
+      "Volte com o frango, adicione a cerveja e cozinhe até reduzir e formar um molho. Finalize com coentro e ajuste o sal.",
+      "Prepare o arroz misturando com ovos fritos, dueto de milho e ervilha e cheiro-verde. Finalize com batata palha por cima."
+    ],
+    "video": "https://www.youtube.com/watch?v=EXEMPLO6"
+  }
+]
