@@ -10,7 +10,6 @@ const estados = [
       {
         cidade: "Natal",
         loja: "NORDESTÃO LAGOA NOVA (LOJA 03)",
-        cnpj: "08030363000939",
         endereco: "AV. SENADOR SALGADO FILHO",
         numero: "1656",
         bairro: "LAGOA NOVA",
@@ -18,7 +17,6 @@ const estados = [
       {
         cidade: "Natal",
         loja: "NORDESTÃO CAPIM MACIO (LOJA 04)",
-        cnpj: "08030363001234",
         endereco: "RUA LEONCIO ETEOVINO MEDEIROS",
         numero: "SN",
         bairro: "CAPIM MACIO",
@@ -26,7 +24,6 @@ const estados = [
       {
         cidade: "Natal",
         loja: "NORDESTÃO TIROL (LOJA 07)",
-        cnpj: "08030363003105",
         endereco: "AV. PRUDENTE DE MORAIS",
         numero: "1140",
         bairro: "TIROL",
@@ -34,7 +31,6 @@ const estados = [
       {
         cidade: "Natal",
         loja: "NORDESTÃO (LOJA 11)",
-        cnpj: "0803036300",
         endereco: "AV. ENGENHEIRO ROBERTO FREIRE",
         numero: "844",
         bairro: "CAPIM MACIO",
@@ -42,7 +38,6 @@ const estados = [
       {
         cidade: "Parnamirim",
         loja: "NORDESTÃO MARIA LACERDA (LOJA 22)",
-        cnpj: "0803036300",
         endereco: "AV. MARIA LACERDA MONTENEGRO",
         numero: "1400",
         bairro: "NOVA PARNAMIRIM",
@@ -50,7 +45,6 @@ const estados = [
       {
         cidade: "Natal",
         loja: "REDE MAIS (CIDADE DA ESPERANÇA)",
-        cnpj: "40791980000102",
         endereco: "RUA DA CONCEIÇÃO",
         numero: "SN",
         bairro: "CIDADE DA ESPERANÇA",
@@ -58,7 +52,6 @@ const estados = [
       {
         cidade: "Natal",
         loja: "FAVORITO (AYRTON SENNA)",
-        cnpj: "05599479000000",
         endereco: "AV. AYRTON SENNA",
         numero: "3215",
         bairro: "NEOPOLIS",
@@ -66,7 +59,6 @@ const estados = [
       {
         cidade: "Natal",
         loja: "FAVORITO (PONTA NEGRA)",
-        cnpj: "05599479000101",
         endereco: "AV. ENGENHEIRO ROBERTO FREIRE",
         numero: "1460",
         bairro: "CAMPIM MACIO",
@@ -79,7 +71,6 @@ const estados = [
       {
         cidade: "JOÃO PESSOA",
         loja: "MIX MATEUS (ALTIPLANO)",
-        cnpj: "03995515027448",
         endereco: "R JOÃO VIRGÍNIO ACIOLI",
         numero: "707",
         bairro: "ALTIPLANO",
