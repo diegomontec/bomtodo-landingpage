@@ -167,7 +167,6 @@ export default function Onde_encontrar() {
                   >
                     <td className="p-2 border">{loja.cidade}</td>
                     <td className="p-2 border">{loja.loja}</td>
-                    <td className="p-2 border">{loja.cnpj}</td>
                     <td className="p-2 border">{loja.endereco}</td>
                     <td className="p-2 border">{loja.numero}</td>
                     <td className="p-2 border">{loja.bairro}</td>
