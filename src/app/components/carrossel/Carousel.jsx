@@ -67,11 +67,11 @@ const Carousel = () => {
       {selectedReceita && (
         <div
           className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm p-4 transition-all duration-300"
-          onClick={closeModal} // clicando fora fecha modal
+          onClick={closeModal}
         >
           <div
             className="bg-bg-creme shadow-2xl rounded-3xl p-8 w-full max-w-5xl max-h-[80vh] overflow-y-auto relative animate-fadeIn"
-            onClick={(e) => e.stopPropagation()} // evita fechar ao clicar dentro
+            onClick={(e) => e.stopPropagation()}
           >
             <button
               onClick={closeModal}

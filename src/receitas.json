@@ -3,7 +3,7 @@
     "id": "1",
     "titulo": "Medalhão ao Molho de Laranja e Bacon com Purê de Batata Doce",
     "slug": "medalhao-laranja-bacon-pure",
-    "image": "/assets/medalhao-laranja-bacon-pure.jpg",
+    "image": "/assets/receitas/medalhao-laranja-bacon-pure.jpg",
     "ingredientes": [
       "200g de medalhão de frango Inspiratto",
       "Tempero Inspiratto",
@@ -28,7 +28,7 @@
     "id": "2",
     "titulo": "Meio da Asa de Frango na Airfryer com Molho Blue Cheese",
     "slug": "asa-airfryer-blue-cheese",
-    "image": "/assets/asa-airfryer-blue-cheese.jpg",
+    "image": "/assets/receitas/asa-airfryer-blue-cheese.jpg",
     "ingredientes": [
       "400g de meio da asa",
       "Tempero Inspiratto",
@@ -52,7 +52,7 @@
     "id": "3",
     "titulo": "Coxa Creme ao Barbecue",
     "slug": "coxa-creme-barbecue",
-    "image": "/assets/coxa-creme.jpg",
+    "image": "/assets/receitas/coxa-creme.jpg",
     "ingredientes": [
       "500g de coxinha da asa - Corte Inspiratto",
       "Tempero Inspiratto",
@@ -86,7 +86,7 @@
     "id": "4",
     "titulo": "Frango Xadrez com Massa Fresca",
     "slug": "frango-xadrez-massa-fresca",
-    "image": "/assets/frango-xadrez-massa-fresca.jpg",
+    "image": "/assets/receitas/frango-xadrez-massa-fresca.jpg",
     "ingredientes": [
       "200g de frango em cubos Inspiratto",
       "Tempero Inspiratto",
@@ -118,7 +118,7 @@
     "id": "5",
     "titulo": "Filé de Coxa com Sobrecoxa e Risoto de Tomate Seco, Nata e Bacon",
     "slug": "file-coxa-risoto-tomate-nata",
-    "image": "/assets/file-coxa-risoto-tomate-nata.png",
+    "image": "/assets/receitas/FILÉ RISOTO DE TOMATE SECO COM BACON.png",
     "ingredientes": [
       "1 pacote de coxa com sobrecoxa desossada Inspiratto",
       "Tempero Inspiratto",
@@ -152,7 +152,7 @@
     "id": "6",
     "titulo": "Frango Cozido na Cerveja com Arroz Bom Todo",
     "slug": "frango-cerveja-arroz-bom-todo",
-    "image": "/assets/frango-cerveja-arroz-bom-todo.png",
+    "image": "/assets/receitas/FRANGO COZIDO NA CERVEJA COM ARROZ BRANCO.png",
     "ingredientes": [
       "1 frango inteiro Bom Todo Inspiratto",
       "Tempero Inspiratto",

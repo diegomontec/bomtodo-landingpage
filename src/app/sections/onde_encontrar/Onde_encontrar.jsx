@@ -36,13 +36,6 @@ const estados = [
         bairro: "CAPIM MACIO",
       },
       {
-        cidade: "Parnamirim",
-        loja: "NORDESTÃO MARIA LACERDA (LOJA 22)",
-        endereco: "AV. MARIA LACERDA MONTENEGRO",
-        numero: "1400",
-        bairro: "NOVA PARNAMIRIM",
-      },
-      {
         cidade: "Natal",
         loja: "REDE MAIS (CIDADE DA ESPERANÇA)",
         endereco: "RUA DA CONCEIÇÃO",
@@ -62,6 +55,13 @@ const estados = [
         endereco: "AV. ENGENHEIRO ROBERTO FREIRE",
         numero: "1460",
         bairro: "CAPIM MACIO",
+      },
+      {
+        cidade: "Parnamirim",
+        loja: "NORDESTÃO MARIA LACERDA (LOJA 22)",
+        endereco: "AV. MARIA LACERDA MONTENEGRO",
+        numero: "1400",
+        bairro: "NOVA PARNAMIRIM",
       },
     ],
   },
@@ -113,13 +113,13 @@ export default function Onde_encontrar() {
         <div className="flex w-full flex-col md:flex-row gap-4 md:gap-8 md:justify-left justify-center items-start md:items-center">
           <button
             onClick={() => abrirModal("Paraíba")}
-            className="flex cursor-pointer border border-amber-400 bg-[#ffffff] text-bg-azul font-button py-4 px-14 rounded-md shadow-md transition-colors duration-200 hover:bg-[#d3d3d3] hover:text-bg-azul"
+            className="flex cursor-pointer border border-amber-400 bg-[#ffffff] text-bg-azul font-button py-4 px-14 rounded-md shadow-md transition-colors duration-200 hover:bg-[#ffd391] hover:text-bg-azul"
           >
             Paraíba
           </button>
           <button
             onClick={() => abrirModal("Rio Grande do Norte")}
-            className="flex cursor-pointer border border-amber-400 bg-[#ffffff] text-bg-azul font-button py-4 px-14 rounded-md shadow-md transition-colors duration-200 hover:bg-[#d3d3d3] hover:text-bg-azul"
+            className="flex cursor-pointer border border-amber-400 bg-[#ffffff] text-bg-azul font-button py-4 px-14 rounded-md shadow-md transition-colors duration-200 hover:bg-[#ffd391] hover:text-bg-azul"
           >
             Rio Grande do Norte
           </button>
@@ -141,7 +141,7 @@ export default function Onde_encontrar() {
               className="absolute top-4 right-8 text-2xl font-bold hover:text-red-600"
               aria-label="Fechar modal"
             >
-              ×
+              X
             </button>
 
             <h3 className="text-3xl font-bold mb-6 text-left">

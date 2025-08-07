@@ -1,35 +1,35 @@
 [
   {
     "id": 1,
-    "imagem": "/assets/file-de-peito.png",
+    "imagem": "/assets/cortes/Filé de Peito - Cubo de peito cru.png",
     "alt": "Filé de peito em cubos",
     "titulo": "Filé de peito",
     "descricao": "Ideal para strogonoff e espetinhos"
   },
   {
     "id": 2,
-    "imagem": "/assets/coxa.png",
+    "imagem": "/assets/cortes/Coxa e Sobrecoxa - Filé de coxa com sobrecoxa sem pele (cru).png",
     "alt": "Coxa com sobrecoxa sem pele",
     "titulo": "Coxa com sobrecoxa",
     "descricao": "Perfeito para assados com ervas"
   },
   {
     "id": 3,
-    "imagem": "/assets/Tulipa da coxinha cru.png",
+    "imagem": "/assets/cortes/COXA - Tulipa de coxa crua.png",
     "alt": "Tulipa da coxinha",
     "titulo": "Tulipa da coxinha",
     "descricao": "Petisco crocante e suculento"
   },
   {
     "id": 4,
-    "imagem": "/assets/frango grelhado.png",
+    "imagem": "/assets/cortes/",
     "alt": "Cortes para assados",
     "titulo": "Assado de domingo",
     "descricao": "Perfeito para preparar com legumes no forno"
   },
   {
     "id": 5,
-    "imagem": "/assets/tulipa meio da asa.png",
+    "imagem": "/assets/cortes/ASA - Meio da asa crua.png",
     "alt": "Meio da asa temperado",
     "titulo": "Meio da asa",
     "descricao": "Fácil de preparar na airfryer ou grelha"
@@ -57,21 +57,21 @@
   },
   {
     "id": 9,
-    "imagem": "/assets/filezinho.png",
+    "imagem": "/assets/cortes/Filé de Peito - Tiras de Peito Cru.png",
     "alt": "Filezinho de frango",
     "titulo": "Filezinho",
     "descricao": "Ideal para empanar e servir com molhos"
   },
   {
     "id": 10,
-    "imagem": "/assets/frango moido.png",
+    "imagem": "/assets/cortes/frango moido.png",
     "alt": "Frango moído",
     "titulo": "Frango moído",
     "descricao": "Perfeito para almôndegas e recheios"
   },
   {
     "id": 11,
-    "imagem": "/assets/espetinho.png",
+    "imagem": "/assets/cortes/espetinho.png",
     "alt": "Espetinho de frango",
     "titulo": "Espetinho",
     "descricao": "Pronto para grelha ou churrasqueira"
