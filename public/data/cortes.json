@@ -22,7 +22,7 @@
   },
   {
     "id": 4,
-    "imagem": "/assets/cortes/",
+    "imagem": "/assets/cortes/Filé de Peito - Medalhão de peito cru.png",
     "alt": "Cortes para assados",
     "titulo": "Assado de domingo",
     "descricao": "Perfeito para preparar com legumes no forno"
@@ -36,21 +36,21 @@
   },
   {
     "id": 6,
-    "imagem": "/assets/corte temperado cru.png",
+    "imagem": "/assets/cortes/FRANGO INTEIRO - Frango inteiro cru cortado em pedaços e embalado a vácuo.png",
     "alt": "Frango temperado",
     "titulo": "Corte temperado",
     "descricao": "Para o preparo prático do dia a dia"
   },
   {
     "id": 7,
-    "imagem": "/assets/frango grelhado.png",
+    "imagem": "/assets/cortes/FRANGO INTEIRO - ½ frango cru cortado em pedaços e embalado a vácuo.png",
     "alt": "Filé grelhado",
     "titulo": "Filé grelhado",
     "descricao": "Leve, nutritivo e rápido de fazer"
   },
   {
     "id": 8,
-    "imagem": "/assets/frango grelhado.png",
+    "imagem": "/assets/cortes/Filé de Peito - Bife de Peito.png",
     "alt": "Frango recheado",
     "titulo": "Recheado gourmet",
     "descricao": "Experimente com queijos e ervas"
