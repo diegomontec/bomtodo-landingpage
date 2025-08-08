@@ -45,14 +45,14 @@
     "id": 7,
     "imagem": "/assets/cortes/FRANGO INTEIRO - ½ frango cru cortado em pedaços e embalado a vácuo.png",
     "alt": "Filé grelhado",
-    "titulo": "Filé grelhado",
+    "titulo": "Pedaços a vácuo",
     "descricao": "Leve, nutritivo e rápido de fazer"
   },
   {
     "id": 8,
     "imagem": "/assets/cortes/Filé de Peito - Bife de Peito.png",
     "alt": "Frango recheado",
-    "titulo": "Recheado gourmet",
+    "titulo": "Bife de peito",
     "descricao": "Experimente com queijos e ervas"
   },
   {
