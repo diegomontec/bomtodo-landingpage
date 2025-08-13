@@ -1,79 +1,87 @@
 "use client";
 
 import { useState } from "react";
-import Button from "@/app/components/button/Button";
 
 const estados = [
+  {
+    estado: "Paraíba",
+    lojas: [
+      {
+        cidade: "João Pessoa",
+        loja: "Mateus Supermercados",
+        endereco: "R. João Virgínio Acioli",
+        numero: "707",
+        bairro: "Altiplano Cabo Branco",
+        link: "https://maps.app.goo.gl/2mFjSgfdC2t3xGNz9",
+      },
+    ],
+  },
   {
     estado: "Rio Grande do Norte",
     lojas: [
       {
         cidade: "Natal",
-        loja: "NORDESTÃO LAGOA NOVA (LOJA 03)",
-        endereco: "AV. SENADOR SALGADO FILHO",
+        loja: "Nordestão - Lagoa Nova",
+        endereco: "Av. Sen. Salgado Filho",
         numero: "1656",
-        bairro: "LAGOA NOVA",
+        bairro: "Lagoa Nova",
+        link: "https://maps.app.goo.gl/WHvSXTxr5dC2tjko7",
       },
       {
         cidade: "Natal",
-        loja: "NORDESTÃO CAPIM MACIO (LOJA 04)",
-        endereco: "RUA LEONCIO ETEOVINO MEDEIROS",
-        numero: "SN",
-        bairro: "CAPIM MACIO",
+        loja: "Nordestão - Cidade Jardim",
+        endereco: "R. Leôncio Etelvino de Medeiros",
+        numero: "2877",
+        bairro: "Capim Macio",
+        link: "https://maps.app.goo.gl/bkybAat2NDKwApFw6",
       },
       {
         cidade: "Natal",
-        loja: "NORDESTÃO TIROL (LOJA 07)",
-        endereco: "AV. PRUDENTE DE MORAIS",
+        loja: "Nordestão - Tirol",
+        endereco: "Av. Prudente de Morais",
         numero: "1140",
-        bairro: "TIROL",
+        bairro: "Tirol",
+        link: "https://maps.app.goo.gl/NHx7Czh9Te7SzQDc7",
       },
       {
         cidade: "Natal",
-        loja: "NORDESTÃO (LOJA 11)",
-        endereco: "AV. ENGENHEIRO ROBERTO FREIRE",
-        numero: "844",
-        bairro: "CAPIM MACIO",
+        loja: "Nordestão - Ponta Negra",
+        endereco: "Av. Engenheiro Roberto Freire",
+        numero: "2050",
+        bairro: "Capim Macio",
+        link: "https://maps.app.goo.gl/7aL46eHgyH2uHF5aA",
       },
       {
         cidade: "Natal",
-        loja: "REDE MAIS (CIDADE DA ESPERANÇA)",
-        endereco: "RUA DA CONCEIÇÃO",
-        numero: "SN",
-        bairro: "CIDADE DA ESPERANÇA",
+        loja: "Rede Mais - Cidade da Esperança",
+        endereco: "R. Conceição",
+        numero: "01/03",
+        bairro: "Cidade da Esperança",
+        link: "https://maps.app.goo.gl/42uYnw9TAzynpAje6",
       },
       {
         cidade: "Natal",
-        loja: "FAVORITO (AYRTON SENNA)",
-        endereco: "AV. AYRTON SENNA",
+        loja: "Favorito Supermercados - Ayrton Senna",
+        endereco: "Av. Ayrton Senna",
         numero: "3215",
-        bairro: "NEOPOLIS",
+        bairro: "Neópolis",
+        link: "https://maps.app.goo.gl/2Qbvi7NSqoZqmabd7",
       },
       {
         cidade: "Natal",
-        loja: "FAVORITO (PONTA NEGRA)",
-        endereco: "AV. ENGENHEIRO ROBERTO FREIRE",
+        loja: "Favorito Supermercados - Ponta Negra",
+        endereco: "Av. Engenheiro Roberto Freire",
         numero: "1460",
-        bairro: "CAPIM MACIO",
+        bairro: "Capim Macio",
+        link: "https://maps.app.goo.gl/exnn8C8QozA5J7Wz9",
       },
       {
         cidade: "Parnamirim",
-        loja: "NORDESTÃO MARIA LACERDA (LOJA 22)",
-        endereco: "AV. MARIA LACERDA MONTENEGRO",
+        loja: "Nordestão - Maria Lacerda",
+        endereco: "Av. Maria Lacerda Montenegro",
         numero: "1400",
-        bairro: "NOVA PARNAMIRIM",
-      },
-    ],
-  },
-  {
-    estado: "Paraíba",
-    lojas: [
-      {
-        cidade: "JOÃO PESSOA",
-        loja: "MIX MATEUS (ALTIPLANO)",
-        endereco: "R JOÃO VIRGÍNIO ACIOLI",
-        numero: "707",
-        bairro: "ALTIPLANO",
+        bairro: "Nova Parnamirim",
+        link: "https://maps.app.goo.gl/GJfzT8CqfPFBDQmv6",
       },
     ],
   },
@@ -95,15 +103,23 @@ export default function Onde_encontrar() {
 
   const estadoLojas = estados.find((item) => item.estado === estadoSelecionado);
 
+  const abrirMapa = (link, endereco) => {
+    const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+    if (isMobile) {
+      window.open(`geo:0,0?q=${encodeURIComponent(endereco)}`, "_blank");
+    } else {
+      window.open(link, "_blank");
+    }
+  };
+
   return (
-      <section className="flex flex-col bg-bg-azul text-bg-creme relative border-y-4 border-[#EFBF04]">
+    <section className="flex flex-col bg-bg-azul text-bg-creme relative border-y-4 border-[#EFBF04]">
       <div className="w-full flex flex-col gap-16 justify-start items-center px-6 py-12 sm:px-8 sm:py-14 md:px-16 md:py-20 lg:px-24 lg:py-28 text-center">
         <div className="flex flex-col gap-4">
           <p className="text-2xl sm:text-3xl md:text-2xl font-descricao text-left md:text-center">
             A linha Inspiratto está disponível nas principais redes da Paraíba e
             do Rio Grande do Norte.
           </p>
-
           <p className="text-2xl sm:text-3xl md:text-2xl font-descricao text-left md:text-center">
             Encontre o freezer exclusivo no setor de resfriados dos
             supermercados parceiros.
@@ -126,15 +142,14 @@ export default function Onde_encontrar() {
         </div>
       </div>
 
-      {/* MODAL */}
       {showModal && estadoLojas && (
         <div
           className="fixed inset-0 bg-black/70 z-50 flex items-center justify-center p-4"
-          onClick={fecharModal} // fechar ao clicar no backdrop
+          onClick={fecharModal}
         >
           <div
             className="bg-bg-creme text-bg-azul rounded-xl p-8 max-w-6xl w-full max-h-[90vh] overflow-y-auto relative"
-            onClick={(e) => e.stopPropagation()} // impedir fechamento ao clicar no conteúdo
+            onClick={(e) => e.stopPropagation()}
           >
             <button
               onClick={fecharModal}
@@ -156,9 +171,9 @@ export default function Onde_encontrar() {
                   <th className="p-2 border">Endereço</th>
                   <th className="p-2 border">Número</th>
                   <th className="p-2 border">Bairro</th>
+                  <th className="p-2 border">Mapa</th>
                 </tr>
               </thead>
-
               <tbody>
                 {estadoLojas.lojas.map((loja, index) => (
                   <tr
@@ -170,6 +185,19 @@ export default function Onde_encontrar() {
                     <td className="p-2 border">{loja.endereco}</td>
                     <td className="p-2 border">{loja.numero}</td>
                     <td className="p-2 border">{loja.bairro}</td>
+                    <td className="p-2 border text-center">
+                      <button
+                        onClick={() =>
+                          abrirMapa(
+                            loja.link,
+                            `${loja.endereco}, ${loja.numero} - ${loja.bairro}, ${loja.cidade}`
+                          )
+                        }
+                        className="px-3 py-1 text-left bg-amber-400 text-bg-azul rounded hover:bg-amber-500 transition-colors"
+                      >
+                        Ver mapa
+                      </button>
+                    </td>
                   </tr>
                 ))}
               </tbody>
