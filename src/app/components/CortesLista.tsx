@@ -31,7 +31,7 @@ export default function CortesLista() {
   }
 
   return (
-    <div className="mt-16 w-full px-4" aria-label="Galeria de cortes">
+    <div className="mt-16 w-full px-4" aria-label="Galeria de cortes" id="cortes">
       <Swiper
         modules={[Autoplay, Navigation, Pagination]}
         spaceBetween={6}

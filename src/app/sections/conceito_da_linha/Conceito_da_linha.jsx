@@ -1,7 +1,7 @@
 const ConceitoDaLinha = () => {
   return (
     <section
-      id="sobre"
+      id="conceito"
       className="relative flex flex-col items-start justify-center text-bg-creme min-h-screen border-y-4 border-[#EFBF04]"
       style={{
         backgroundImage: "url('assets/chefeIa.jpg')",

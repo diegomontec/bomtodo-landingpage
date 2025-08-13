@@ -1,8 +1,11 @@
+'use client'
+
+import React from "react";
 import Button from "@/app/components/button/Button";
 
 const Hero = () => {
   return (
-    <div className="relative h-screen w-full ">
+    <div className="relative h-screen w-full" id="hero">
       <img
         src="/assets/BOM TODO - CHEF - SELO.jpg"
         alt="Fundo hero"
@@ -15,7 +18,14 @@ const Hero = () => {
             <p className="font-extralight">A INSPIRAÇÃO QUE</p>
             <p className="font-titulo">TRANSFORMA RECEITAS</p>
           </div>
-          <Button href="#contato">Você, o chef da casa!</Button>
+          <Button
+            onClick={() => {
+              const section = document.getElementById("receitas");
+              section?.scrollIntoView({ behavior: "smooth" });
+            }}
+          >
+            Você, o chef da casa!
+          </Button>
         </div>
       </div>
     </div>

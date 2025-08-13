@@ -113,7 +113,7 @@ export default function Onde_encontrar() {
   };
 
   return (
-    <section className="flex flex-col bg-bg-azul text-bg-creme relative border-y-4 border-[#EFBF04]">
+    <section className="flex flex-col bg-bg-azul text-bg-creme relative border-y-4 border-[#EFBF04]" id="encontrar">
       <div className="w-full flex flex-col gap-16 justify-start items-center px-6 py-12 sm:px-8 sm:py-14 md:px-16 md:py-20 lg:px-24 lg:py-28 text-center">
         <div className="flex flex-col gap-4">
           <p className="text-2xl sm:text-3xl md:text-2xl font-descricao text-left md:text-center">

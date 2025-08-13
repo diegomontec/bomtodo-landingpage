@@ -81,9 +81,16 @@ const Carousel = () => {
               &times;
             </button>
 
-            <h2 className="text-3xl font-semibold text-gray-800 mb-6 font-titulo text-left">
-              {selectedReceita.titulo}
-            </h2>
+            <div className="flex flex-row w-full pb-8 items-center gap-4">
+              <img
+                className="w-16 "
+                src="/assets/seloQualidade.png"
+                alt=""
+              />
+              <h2 className="text-3xl font-semibold text-gray-800 font-titulo text-left">
+                {selectedReceita.titulo}
+              </h2>
+            </div>
 
             {selectedReceita.video && (
               <div className="mb-6">

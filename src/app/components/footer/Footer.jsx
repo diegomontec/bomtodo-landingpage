@@ -1,4 +1,17 @@
+'use client';
+
+import React from "react";
+
 const Footer = () => {
+  const scrollToSection = (id) => {
+    const section = document.getElementById(id);
+    section?.scrollIntoView({ behavior: "smooth" });
+  };
+
+  const openLink = (url) => {
+    window.open(url, "_blank");
+  };
+
   return (
     <footer className="bg-bg-creme text-bg-azul px-6 py-6 sm:px-8 sm:py-7 md:px-16 md:py-8 lg:px-24 lg:py-12">
       <div className="flex flex-col md:flex-row justify-between items-center gap-12 md:gap-24">
@@ -11,18 +24,54 @@ const Footer = () => {
 
         <div className="flex gap-16">
           <div className="flex flex-col gap-3 font-descricao text-left">
-            <a href="#">Sobre a Linha</a>
-            <a href="#">Receitas</a>
-          </div>
-          <div className="flex flex-col gap-3 font-descricao text-left">
-            <a href="#">Cortes</a>
-            <a href="#">Onde encontrar</a>
+            <span
+              className="cursor-pointer"
+              onClick={() => scrollToSection("conceito")}
+            >
+              Sobre a Linha
+            </span>
+            <span
+              className="cursor-pointer"
+              onClick={() => scrollToSection("receitas")}
+            >
+              Receitas
+            </span>
           </div>
 
           <div className="flex flex-col gap-3 font-descricao text-left">
-            <a href="#">Instagram</a>
-            <a href="#">Youtube</a>
-            <a href="#">Tiktok</a>
+            <span
+              className="cursor-pointer"
+              onClick={() => scrollToSection("cortes")}
+            >
+              Cortes
+            </span>
+            <span
+              className="cursor-pointer"
+              onClick={() => scrollToSection("encontrar")}
+            >
+              Onde encontrar
+            </span>
+          </div>
+
+          <div className="flex flex-col gap-3 font-descricao text-left">
+            <span
+              className="cursor-pointer"
+              onClick={() => openLink("https://www.instagram.com")}
+            >
+              Instagram
+            </span>
+            <span
+              className="cursor-pointer"
+              onClick={() => openLink("https://www.youtube.com")}
+            >
+              Youtube
+            </span>
+            <span
+              className="cursor-pointer"
+              onClick={() => openLink("https://www.tiktok.com")}
+            >
+              Tiktok
+            </span>
           </div>
         </div>
       </div>
