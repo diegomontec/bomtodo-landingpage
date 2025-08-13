@@ -10,7 +10,7 @@ const ConceitoDaLinha = () => {
         backgroundRepeat: "no-repeat",
       }}
     >
-  <div className="absolute inset-0 bg-gradient-to-r from-black via-black/50 to-transparent"></div>
+      <div className="absolute inset-0 bg-gradient-to-r from-black via-black/50 to-transparent"></div>
 
       <div className="relative z-10 w-full max-w-5xl px-6 py-16 sm:px-8 md:px-16 lg:px-24 text-left">
         <h1 className="text-4xl sm:text-5xl font-titulo mb-8">
@@ -31,6 +31,9 @@ const ConceitoDaLinha = () => {
             gastronomia dentro de casa.
           </p>
         </div>
+        <br />
+        <br />
+        <br />
 
         <p className="mt-10 inline-block bg-bg-creme text-bg-azul px-8 py-4 rounded-lg text-2xl font-descricao">
           Linha assinada pelo chef <strong>Tarcísio Marinho</strong>

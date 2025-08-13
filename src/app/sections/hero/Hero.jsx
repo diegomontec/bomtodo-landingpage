@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <div className="relative h-screen w-full" id="hero">
       <img
-        src="/assets/BOM TODO - CHEF - SELO.jpg"
+        src="/assets/receitas/Inspiratto-BT-0162.jpg"
         alt="Fundo hero"
         className="absolute inset-0 w-full h-full object-cover"
       />
