@@ -22,7 +22,7 @@
       "Na gordura do bacon, sele os medalhões. Com eles dourados, adicione o bacon, o suco de laranja e o açúcar. Cozinhe em fogo médio por 10 minutos ou até reduzir.",
       "Para o purê: com a batata doce cozida e amassada, misture em fogo médio o leite de coco, a manteiga, sal, pimenta e a hortelã picada. Mexa até obter um purê homogêneo."
     ],
-    "video": "https://www.youtube.com/watch?v=EXEMPLO1"
+    "video": "https://youtu.be/EesgVdNCNYM"
   },
   {
     "id": "2",
@@ -46,7 +46,7 @@
       "Leve o frango à airfryer pré-aquecida a 180ºC por 30 minutos ou até dourar.",
       "Sirva com gergelim por cima e o molho de blue cheese."
     ],
-    "video": "https://www.youtube.com/watch?v=EXEMPLO2"
+    "video": "https://youtu.be/YY8sNS8vtbQ"
   },
   {
     "id": "3",
@@ -80,7 +80,7 @@
       "Modele as mini coxinhas usando os ossos como base. Empane na farinha de trigo, depois no ovo batido e por fim na farinha panko. Frite em óleo quente.",
       "Para o molho barbecue: refogue a cebola e o alho. Adicione o açúcar mascavo, depois o vinagre, ketchup, molho inglês e pimenta. Cozinhe até reduzir e bata no processador para homogeneizar."
     ],
-    "video": "https://www.youtube.com/watch?v=EXEMPLO3"
+    "video": "hhttps://youtu.be/xMOXlqoL1ag"
   },
   {
     "id": "4",
@@ -112,7 +112,7 @@
       "Na mesma panela, doure a cebola, os pimentões e o alho-poró. Adicione o restante do shoyu, a pimenta e volte com o frango. Acrescente água e açúcar. Finalize com óleo de gergelim.",
       "Sirva com a massa fresca cozida e finalize com gergelim e cebolinha."
     ],
-    "video": "https://www.youtube.com/watch?v=EXEMPLO4"
+    "video": "https://youtu.be/Dc3G6GMsmOQ"
   },
   {
     "id": "5",
@@ -175,6 +175,38 @@
       "Volte com o frango, adicione a cerveja e cozinhe até reduzir e formar um molho. Finalize com coentro e ajuste o sal.",
       "Prepare o arroz misturando com ovos fritos, dueto de milho e ervilha e cheiro-verde. Finalize com batata palha por cima."
     ],
-    "video": "https://www.youtube.com/watch?v=EXEMPLO6"
+    "video": "https://youtu.be/qUJjsqo8huA"
+  },
+  {
+    "id": "7",
+    "titulo": "Filé de Coxa com Sobrecoxa Recheada e Legumes Salteados",
+    "slug": "file-coxa-sobrecoxa-recheada",
+    "image": "/assets/receitas/medalhao-laranja-bacon-pure.jpg",
+    "ingredientes": [
+      "1 filé de coxa com sobrecoxa desossada da linha Inspiratto",
+      "1 colher (sopa) de tempero Inspiratto",
+      "1 colher (sopa) de maionese",
+      "1 colher (chá) de mostarda",
+      "100g de queijo coalho",
+      "50g de tomate seco",
+      "100g de brócolis Bom Todo",
+      "100g de couve-flor Bom Todo",
+      "100g de vagem",
+      "50g de cenoura laminada",
+      "100g de tomate cereja",
+      "50g de cebola roxa",
+      "2 colheres (sopa) de azeite",
+      "Suco de 1 limão",
+      "Sal a gosto",
+      "10g de alho frito para finalizar"
+    ],
+    "modoDePreparo": [
+      "Tempere o filé de coxa com sobrecoxa com o tempero Inspiratto e uma pitada de sal.",
+      "Na parte interna da peça, coloque o queijo coalho e o tomate seco. Enrole para fechar e, se necessário, use palitos de dente para auxiliar.",
+      "Misture a maionese com a mostarda e passe por fora do frango. Leve ao forno preaquecido a 180°C até dourar bem.",
+      "Em uma panela, aqueça um fio de azeite e doure o brócolis e a couve-flor. Adicione a cebola roxa fatiada, a vagem, a cenoura laminada e os tomates cereja. Salteie rapidamente, ajustando o sal e a pimenta-do-reino.",
+      "Sirva os legumes como base, disponha o frango por cima e finalize com alho frito."
+    ],
+    "video": "https://www.youtube.com/watch?v=EXEMPLO1"
   }
 ]
