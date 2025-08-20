@@ -126,16 +126,16 @@ export default function Onde_encontrar() {
           </p>
         </div>
 
-        <div className="flex w-full flex-col md:flex-row gap-4 md:gap-8 md:justify-left justify-center items-start md:items-center">
+        <div className="flex w-full flex-col md:flex-row gap-4 md:gap-8 md:justify-left justify-center items-start md:items-center max-w-4xl">
           <button
             onClick={() => abrirModal("Paraíba")}
-            className="flex cursor-pointer border border-amber-400 bg-[#ffffff] text-bg-azul font-button py-4 px-14 rounded-md shadow-md transition-colors duration-200 hover:bg-[#ffd391] hover:text-bg-azul"
+            className="flex w-full cursor-pointer border justify-center border-amber-400 bg-[#ffffff] text-bg-azul font-button py-4 px-14 rounded-md shadow-md transition-colors duration-200 hover:bg-[#ffd391] hover:text-bg-azul"
           >
             Paraíba
           </button>
           <button
             onClick={() => abrirModal("Rio Grande do Norte")}
-            className="flex cursor-pointer border border-amber-400 bg-[#ffffff] text-bg-azul font-button py-4 px-14 rounded-md shadow-md transition-colors duration-200 hover:bg-[#ffd391] hover:text-bg-azul"
+            className="flex w-full cursor-pointer border justify-center border-amber-400 bg-[#ffffff] text-bg-azul font-button py-4 px-14 rounded-md shadow-md transition-colors duration-200 hover:bg-[#ffd391] hover:text-bg-azul"
           >
             Rio Grande do Norte
           </button>
@@ -153,7 +153,7 @@ export default function Onde_encontrar() {
           >
             <button
               onClick={fecharModal}
-              className="absolute top-4 right-8 text-2xl font-bold hover:text-red-600"
+              className="absolute top-4 cursor-pointer right-8 text-2xl font-bold hover:text-red-600"
               aria-label="Fechar modal"
             >
               X
@@ -168,8 +168,6 @@ export default function Onde_encontrar() {
                 <tr>
                   <th className="p-2 border">Cidade</th>
                   <th className="p-2 border">Loja</th>
-                  <th className="p-2 border">Endereço</th>
-                  <th className="p-2 border">Número</th>
                   <th className="p-2 border">Bairro</th>
                   <th className="p-2 border">Mapa</th>
                 </tr>
@@ -182,8 +180,7 @@ export default function Onde_encontrar() {
                   >
                     <td className="p-2 border">{loja.cidade}</td>
                     <td className="p-2 border">{loja.loja}</td>
-                    <td className="p-2 border">{loja.endereco}</td>
-                    <td className="p-2 border">{loja.numero}</td>
+
                     <td className="p-2 border">{loja.bairro}</td>
                     <td className="p-2 border text-center">
                       <button
@@ -193,7 +190,7 @@ export default function Onde_encontrar() {
                             `${loja.endereco}, ${loja.numero} - ${loja.bairro}, ${loja.cidade}`
                           )
                         }
-                        className="px-3 py-1 text-left bg-amber-400 text-bg-azul rounded hover:bg-amber-500 transition-colors"
+                        className="px-3 py-1 text-left cursor-pointer text-bg-azul rounded hover:bg-amber-500 transition-colors"
                       >
                         Ver mapa
                       </button>
