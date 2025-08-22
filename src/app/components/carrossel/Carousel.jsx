@@ -36,10 +36,9 @@ const Carousel = () => {
         loop
         className="w-full h-[300px]"
         breakpoints={{
-          430: { slidesPerView: 1 },
-          540: { slidesPerView: 2.2 },
-          640: { slidesPerView: 3.2 },
-          768: { slidesPerView: 4.2 },
+          0: { slidesPerView: 1.2 },
+          640: { slidesPerView: 1.2 },
+          768: { slidesPerView: 3.2 },
           1024: { slidesPerView: 4.2 },
         }}
       >

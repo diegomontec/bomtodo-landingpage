@@ -36,16 +36,15 @@ export default function CortesLista() {
         modules={[Autoplay, Navigation, Pagination]}
         spaceBetween={6}
         autoplay={{ delay: 3000 }}
-        // slidesPerView={3.2}
         pagination={{
           clickable: true,
           dynamicBullets: true,
         }}
         
         breakpoints={{
-          0: { slidesPerView: 3.2 },
-          640: { slidesPerView: 3.2 },
-          768: { slidesPerView: 4.2 },
+          0: { slidesPerView: 1.2 },
+          640: { slidesPerView: 1.2 },
+          768: { slidesPerView: 3.2 },
           1024: { slidesPerView: 4.2 },
         }}
         className="pb-10"
