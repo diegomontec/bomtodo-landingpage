@@ -23,7 +23,7 @@ const Carousel = () => {
   };
 
   return (
-    <div className="w-full px-4 py-6">
+    <div className="w-full py-6">
       <Swiper
         modules={[Navigation, Pagination, Autoplay]}
         spaceBetween={6}
