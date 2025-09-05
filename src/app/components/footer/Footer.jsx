@@ -56,19 +56,19 @@ const Footer = () => {
           <div className="flex flex-col gap-3 font-descricao text-left">
             <span
               className="cursor-pointer"
-              onClick={() => openLink("https://www.instagram.com")}
+              onClick={() => openLink("https://www.instagram.com/sigabomtodo/")}
             >
               Instagram
             </span>
             <span
               className="cursor-pointer"
-              onClick={() => openLink("https://www.youtube.com")}
+              onClick={() => openLink("https://www.youtube.com/@sigabomtodo")}
             >
               Youtube
             </span>
             <span
               className="cursor-pointer"
-              onClick={() => openLink("https://www.tiktok.com")}
+              onClick={() => openLink("https://www.tiktok.com/@sigabomtodo")}
             >
               Tiktok
             </span>

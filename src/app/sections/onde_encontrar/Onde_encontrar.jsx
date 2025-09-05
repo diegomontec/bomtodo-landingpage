@@ -14,6 +14,15 @@ const estados = [
         bairro: "Altiplano Cabo Branco",
         link: "https://maps.app.goo.gl/2mFjSgfdC2t3xGNz9",
       },
+      {
+        cidade: "João Pessoa",
+        loja: "Super Atacado",
+        cnpj: "",
+        endereco: "Av. Sen. Ruy Carneiro",
+        numero: "180",
+        bairro: "Manaíra",
+        link: "https://maps.app.goo.gl/isw2wy11qtCtQfqN6",
+      },
     ],
   },
   {
@@ -113,7 +122,10 @@ export default function Onde_encontrar() {
   };
 
   return (
-    <section className="flex flex-col bg-bg-azul text-bg-creme relative border-y-4 border-[#EFBF04]" id="encontrar">
+    <section
+      className="flex flex-col bg-bg-azul text-bg-creme relative border-y-4 border-[#EFBF04]"
+      id="encontrar"
+    >
       <div className="w-full flex flex-col gap-16 justify-start items-center px-6 py-12 sm:px-8 sm:py-14 md:px-16 md:py-20 lg:px-24 lg:py-28 text-center">
         <div className="flex flex-col gap-4">
           <p className="text-2xl sm:text-3xl md:text-2xl font-descricao text-left md:text-center">
