@@ -13,7 +13,7 @@ const ConceitoDaLinha = () => {
       <div className="relative flex flex-col lg:flex-row items-center justify-between px-6 py-16 sm:px-8 md:px-16 lg:px-24 gap-12">
         
         <div className="bg-bg-creme md:p-12 p-10 flex flex-col rounded-xl border text-bg-azul w-full lg:w-1/2">
-          <div className="flex flex-col gap-8 text-xl sm:text-3xl font-descricao leading-relaxed max-w-3xl">
+          <div className="flex flex-col gap-8 text-lg sm:text-xl lg:text-2xl font-descricao leading-relaxed max-w-3xl">
             <p>
               Inspiratto nasceu do desejo de levar até a mesa da família
               nordestina cortes especiais de frango com qualidade, frescor e
@@ -34,7 +34,7 @@ const ConceitoDaLinha = () => {
             alt="Chef Tarcísio Marinho" 
             className="max-w-xs lg:max-w-sm mx-auto"
           />
-          <p className="text-bg-azul px-6 py-4 bg-bg-creme rounded-lg text-xl sm:text-2xl lg:text-3xl font-descricao">
+          <p className="text-bg-azul px-6 py-4 bg-bg-creme rounded-lg text-lg sm:text-xl lg:text-2xl font-descricao">
             Linha assinada pelo chef <strong>Tarcísio Marinho</strong>
           </p>
         </div>

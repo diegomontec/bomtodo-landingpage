@@ -13,7 +13,7 @@ const Hero = () => {
       <img
         src="/assets/Hero Inspiratto.png"
         alt="Asa de frango preparada na airfryer com molho blue cheese"
-        className="absolute inset-0 w-full h-full object-cover hidden sm:block"
+        className="absolute inset-0 w-full h-full object-cover"
       />
       <img
         src="/assets/Hero mobile Inspiratto.png"
