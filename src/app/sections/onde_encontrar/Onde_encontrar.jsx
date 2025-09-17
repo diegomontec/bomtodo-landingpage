@@ -5,6 +5,7 @@ import { useState } from "react";
 const estados = [
   {
     estado: "Paraíba",
+    textEstado: "na Paraíba",
     lojas: [
       {
         cidade: "João Pessoa",
@@ -16,7 +17,7 @@ const estados = [
       },
       {
         cidade: "João Pessoa",
-        loja: "Super Atacado",
+        loja: "Super Atacado Bom Todo",
         cnpj: "",
         endereco: "Av. Sen. Ruy Carneiro",
         numero: "180",
@@ -27,31 +28,32 @@ const estados = [
   },
   {
     estado: "Rio Grande do Norte",
+    textEstado: "no Rio Grande do Norte",
     lojas: [
-      {
-        cidade: "Natal",
-        loja: "Nordestão - Lagoa Nova",
-        endereco: "Av. Sen. Salgado Filho",
-        numero: "1656",
-        bairro: "Lagoa Nova",
-        link: "https://maps.app.goo.gl/WHvSXTxr5dC2tjko7",
-      },
-      {
-        cidade: "Natal",
-        loja: "Nordestão - Cidade Jardim",
-        endereco: "R. Leôncio Etelvino de Medeiros",
-        numero: "2877",
-        bairro: "Capim Macio",
-        link: "https://maps.app.goo.gl/bkybAat2NDKwApFw6",
-      },
-      {
-        cidade: "Natal",
-        loja: "Nordestão - Tirol",
-        endereco: "Av. Prudente de Morais",
-        numero: "1140",
-        bairro: "Tirol",
-        link: "https://maps.app.goo.gl/NHx7Czh9Te7SzQDc7",
-      },
+      // {
+      //   cidade: "Natal",
+      //   loja: "Nordestão - Lagoa Nova",
+      //   endereco: "Av. Sen. Salgado Filho",
+      //   numero: "1656",
+      //   bairro: "Lagoa Nova",
+      //   link: "https://maps.app.goo.gl/WHvSXTxr5dC2tjko7",
+      // },
+      // {
+      //   cidade: "Natal",
+      //   loja: "Nordestão - Cidade Jardim",
+      //   endereco: "R. Leôncio Etelvino de Medeiros",
+      //   numero: "2877",
+      //   bairro: "Capim Macio",
+      //   link: "https://maps.app.goo.gl/bkybAat2NDKwApFw6",
+      // },
+      // {
+      //   cidade: "Natal",
+      //   loja: "Nordestão - Tirol",
+      //   endereco: "Av. Prudente de Morais",
+      //   numero: "1140",
+      //   bairro: "Tirol",
+      //   link: "https://maps.app.goo.gl/NHx7Czh9Te7SzQDc7",
+      // },
       {
         cidade: "Natal",
         loja: "Nordestão - Ponta Negra",
@@ -172,7 +174,7 @@ export default function Onde_encontrar() {
             </button>
 
             <h3 className="text-3xl font-bold mb-6 text-left">
-              Lojas em {estadoLojas.estado}
+              Lojas {estadoLojas.textEstado}
             </h3>
 
             <table className="w-full text-left border border-bg-creme sm:text-base">

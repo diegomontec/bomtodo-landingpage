@@ -9,11 +9,16 @@ const Hero = () => {
   };
 
   return (
-    <section id="hero" className="relative w-full h-screen">
+    <section id="hero" className="relative w-full h-screen bg-[url('/assets/Hero Inspiratto.png')]">
       <img
-        src="/assets/receitas/asa-airfryer-blue-cheese copy.jpg"
+        src="/assets/Hero Inspiratto.png"
         alt="Asa de frango preparada na airfryer com molho blue cheese"
-        className="absolute inset-0 w-full h-full object-cover"
+        className="absolute inset-0 w-full h-full object-cover hidden sm:block"
+      />
+      <img
+        src="/assets/Hero mobile Inspiratto.png"
+        alt="hero mobile"
+        className="absolute inset-0 w-full h-full object-cover sm:hidden"
       />
 
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(0,0,0,0.7)_0%,rgba(0,0,0,0)_50%)] md:bg-[linear-gradient(to_right,rgba(0,0,0,0.7)_0%,rgba(0,0,0,0)_50%)]" />
@@ -21,14 +26,6 @@ const Hero = () => {
       <div className="relative flex items-center justify-center md:justify-start h-full text-white p-6 sm:p-10 md:p-28">
         <header className="flex flex-col gap-6 md:gap-12 justify-center items-center md:items-start text-center md:text-left w-full max-w-3xl">
           <div className="flex flex-col justify-center items-center md:items-start md:justify-start gap-8 md:gap-16 mb-2">
-            <div className="w-64">
-              <img
-                src="/assets/seloQualidade.png"
-                alt="Selo de qualidade Inspiratto"
-                className="w-full h-auto"
-              />
-            </div>
-
             <h1 className="text-4xl md:text-5xl leading-tight">
               <span className="block font-extralight">A INSPIRAÇÃO QUE</span>
               <span className="block font-titulo">TRANSFORMA RECEITAS</span>

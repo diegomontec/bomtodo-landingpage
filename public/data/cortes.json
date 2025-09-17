@@ -3,29 +3,29 @@
     "id": 1,
     "imagem": "/assets/cortes/Filé de Peito - Cubo de peito cru.png",
     "alt": "Filé de peito em cubos",
-    "titulo": "Filé de peito",
+    "titulo": "Cubos de peito",
     "descricao": "Ideal para strogonoff e espetinhos"
   },
   {
     "id": 2,
     "imagem": "/assets/cortes/Coxa e Sobrecoxa - Filé de coxa com sobrecoxa sem pele (cru).png",
-    "alt": "Coxa com sobrecoxa sem pele",
-    "titulo": "Coxa com sobrecoxa",
+    "alt": "Coxa e sobrecoxa sem pele",
+    "titulo": "Coxa e sobrecoxa sem pele",
     "descricao": "Perfeito para assados com ervas"
   },
   {
     "id": 3,
     "imagem": "/assets/cortes/COXA - Tulipa de coxa crua.png",
     "alt": "Tulipa da coxinha",
-    "titulo": "Tulipa da coxinha",
-    "descricao": "Petisco crocante e suculento"
+    "titulo": "Tulipa da Coxa",
+    "descricao": "Ótima para fritar ou ensopar"
   },
   {
     "id": 4,
     "imagem": "/assets/cortes/Filé de Peito - Medalhão de peito cru.png",
     "alt": "Cortes para assados",
     "titulo": "Medalhão de peito",
-    "descricao": "Perfeito para preparar com legumes no forno"
+    "descricao": "Suculento e macio na grelha ou no forno"
   },
   {
     "id": 5,
@@ -38,42 +38,42 @@
     "id": 6,
     "imagem": "/assets/cortes/FRANGO INTEIRO - Frango inteiro cru cortado em pedaços e embalado a vácuo.png",
     "alt": "Frango temperado",
-    "titulo": "Corte temperado",
-    "descricao": "Para o preparo prático do dia a dia"
+    "titulo": "Frango inteiro a vácuo",
+    "descricao": "Clássico e prático para reunir a família"
   },
   {
     "id": 7,
     "imagem": "/assets/cortes/FRANGO INTEIRO - ½ frango cru cortado em pedaços e embalado a vácuo.png",
     "alt": "Filé grelhado",
-    "titulo": "Pedaços a vácuo",
-    "descricao": "Leve, nutritivo e rápido de fazer"
+    "titulo": "Meio frango a vácuo",
+    "descricao": "Cortes selecionados para receitas rápidas"
   },
   {
     "id": 8,
     "imagem": "/assets/cortes/Filé de Peito - Bife de Peito.png",
     "alt": "Frango recheado",
     "titulo": "Bife de peito",
-    "descricao": "Experimente com queijos e ervas"
+    "descricao": "Versátil para grelhar, rechear ou empanar"
   },
   {
     "id": 9,
     "imagem": "/assets/cortes/Filé de Peito - Tiras de Peito Cru.png",
     "alt": "Filezinho de frango",
-    "titulo": "Filezinho",
-    "descricao": "Ideal para empanar e servir com molhos"
+    "titulo": "Tiras de Peito",
+    "descricao": "Ótimo para empanar e servir com molho"
   },
   {
     "id": 10,
-    "imagem": "/assets/cortes/frango moido.png",
-    "alt": "Frango moído",
-    "titulo": "Frango moído",
-    "descricao": "Perfeito para almôndegas e recheios"
+    "imagem": "/assets/cortes/COXA E SOBRECOXA - Filé de coxa com sobrecoxa com pele (cru).png",
+    "alt": "Coxa e sobrecoxa com pele",
+    "titulo": "Coxa e sobrecoxa com pele",
+    "descricao": "Crocante no forno ou na brasa"
   },
   {
     "id": 11,
-    "imagem": "/assets/cortes/espetinho.png",
-    "alt": "Espetinho de frango",
-    "titulo": "Espetinho",
-    "descricao": "Pronto para grelha ou churrasqueira"
+    "imagem": "/assets/cortes/ASA - Tulipa da coxinha crua.png",
+    "alt": "Tulipa da Coxinha",
+    "titulo": "Tulipa da Coxinha",
+    "descricao": "Petisco crocante e suculento"
   }
 ]
