@@ -16,12 +16,9 @@ const Hero = () => {
         className="absolute inset-0 w-full h-full object-cover"
       />
       <img
-        src="/assets/Hero mobile Inspiratto.png"
-        alt="hero mobile"
-        className="absolute inset-0 w-full h-full object-cover sm:hidden"
         src="/assets/Hero mobile Inspiratto copy.png"
         alt="hero mobile"
-        className="absolute inset-0 w-full h-screen object-cover sm:hidden"
+        className="absolute inset-0 w-full h-full object-cover sm:hidden"
       />
 
       <div className="absolute inset-0 md:bg-[linear-gradient(to_right,rgba(0,0,0,0.7)_0%,rgba(0,0,0,0)_50%)]" />
