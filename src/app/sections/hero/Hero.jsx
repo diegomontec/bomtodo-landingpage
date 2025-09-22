@@ -16,7 +16,6 @@ const Hero = () => {
         className="absolute inset-0 w-full h-full object-cover"
       />
       <img
-
         src="/assets/Hero mobile Inspiratto.png"
         alt="hero mobile"
         className="absolute inset-0 w-full h-full object-cover sm:hidden"
