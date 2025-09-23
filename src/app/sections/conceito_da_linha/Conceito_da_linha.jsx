@@ -2,7 +2,7 @@ const ConceitoDaLinha = () => {
   return (
     <section
       id="conceito"
-      className="relative"
+      className="relative border-y-4 border-[#EFBF04]"
       style={{
         backgroundImage: "url('assets/INSPIRATTO copiar_FUNDO.jpg')",
         backgroundSize: "cover",
