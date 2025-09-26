@@ -9,7 +9,7 @@ const Hero = () => {
   };
 
   return (
-    <section id="hero" className="relative w-full h-full sm:h-screen">
+    <section id="hero" className="relative w-full h-screen">
       <img
         src="/assets/Hero Inspiratto.png"
         alt="Asa de frango preparada na airfryer com molho blue cheese"
