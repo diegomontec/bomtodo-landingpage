@@ -11,12 +11,12 @@ const Hero = () => {
   return (
     <section id="hero" className="relative w-full h-screen">
       <img
-        src="/assets/Hero Inspiratto.png"
+        src="https://cdn.yellowkite.cloud/public/inspiratto/assets/Hero%20Inspiratto.png"
         alt="Asa de frango preparada na airfryer com molho blue cheese"
         className="absolute inset-0 w-full h-full object-cover"
       />
       <img
-        src="/assets/Hero mobile Inspiratto copy.png"
+        src="https://cdn.yellowkite.cloud/public/inspiratto/assets/Hero%20mobile%20Inspiratto%20copy.png"
         alt="hero mobile"
         className="absolute inset-0 w-full h-full object-cover sm:hidden"
       />
