@@ -98,7 +98,7 @@ const estados = [
       {
         cidade: "Natal",
         loja: "Favorito Supermercados - Ayrton Senna",
-        endereco: "Av. Ayrton Senna",
+        endereco: "Av. Ayrton Senna ",
         numero: "3215",
         bairro: "Neópolis",
         link: "https://maps.app.goo.gl/2Qbvi7NSqoZqmabd7",
