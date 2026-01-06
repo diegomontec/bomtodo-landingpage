@@ -4,7 +4,7 @@ const ConceitoDaLinha = () => {
       id="conceito"
       className="relative border-y-4 border-[#EFBF04]"
       style={{
-        backgroundImage: "url('assets/INSPIRATTO copiar_FUNDO.jpg')",
+        backgroundImage: "url('https://cdn.yellowkite.cloud/public/inspiratto/assets/INSPIRATTO%20copiar_FUNDO.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
@@ -30,7 +30,7 @@ const ConceitoDaLinha = () => {
 
         <div className="flex flex-col items-center w-full lg:w-1/2 text-center">
           <img 
-            src="./assets/chef.png" 
+            src="https://cdn.yellowkite.cloud/public/inspiratto/assets/chef.png" 
             alt="Chef Tarcísio Marinho" 
             className="max-w-xs lg:max-w-sm mx-auto"
           />
