@@ -18,7 +18,7 @@ jobs:
         id: env
         run: |
           # ⚠️⚠️⚠️ ALTERE O NOME DO PROJETO ⚠️⚠️⚠️
-          PROJECT_NAME="lp-inspiratto"
+          PROJECT_NAME="lp-inspirato"
           
           if [ "${{ github.ref_name }}" = "main" ]; then
             echo "CONTAINER_NAME=${PROJECT_NAME}-prod" >> $GITHUB_ENV
