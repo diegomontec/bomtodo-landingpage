@@ -78,7 +78,6 @@ const estados = [
         bairro: "Tirol",
         link: "https://maps.app.goo.gl/du7chUTDi736tH1b7",
       },
-
       {
         cidade: "Natal",
         loja: "Nordestão - Ponta Negra",
