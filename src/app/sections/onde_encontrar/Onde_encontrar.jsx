@@ -17,7 +17,7 @@ const estados = [
       },
       {
         cidade: "João Pessoa",
-        loja: "Super Atacado Bom Todo",
+        loja: "BeMais Ruy Carneiro",
         cnpj: "",
         endereco: "Av. Sen. Ruy Carneiro",
         numero: "180",
@@ -26,7 +26,7 @@ const estados = [
       },
       {
         cidade: "João Pessoa",
-        loja: "Mateus Supermercados",
+        loja: "BeMais Aeroclube",
         endereco: "R. Profa. Luzia Simões Bartolini",
         numero: "55",
         bairro: "Aeroclube",
@@ -34,7 +34,7 @@ const estados = [
       },
       {
         cidade: "João Pessoa",
-        loja: "Mateus Supermercados",
+        loja: "BeMais Supermercados - Retão de Manaíra",
         endereco: "Av. Gov. Flávio Ribeiro Coutinho",
         numero: "615",
         bairro: "Manaíra",
@@ -78,6 +78,7 @@ const estados = [
         bairro: "Tirol",
         link: "https://maps.app.goo.gl/du7chUTDi736tH1b7",
       },
+
       {
         cidade: "Natal",
         loja: "Nordestão - Ponta Negra",
@@ -97,7 +98,7 @@ const estados = [
       {
         cidade: "Natal",
         loja: "Favorito Supermercados - Ayrton Senna",
-        endereco: "Av. Ayrton Senna ",
+        endereco: "Av. Ayrton Senna",
         numero: "3215",
         bairro: "Neópolis",
         link: "https://maps.app.goo.gl/2Qbvi7NSqoZqmabd7",
