@@ -17,7 +17,7 @@ const estados = [
       },
       {
         cidade: "João Pessoa",
-        loja: "BeMais Ruy Carneiro",
+        loja: "Super Atacado Bom Todo Ruy Carneiro",
         cnpj: "",
         endereco: "Av. Sen. Ruy Carneiro",
         numero: "180",
@@ -42,11 +42,11 @@ const estados = [
       },
       {
         cidade: "João Pessoa",
-        loja: "Mateus Supermercados",
+        loja: "BeMais Ruy Carneiro",
         endereco: "Av. Sen. Ruy Carneiro",
         numero: "320",
         bairro: "Manaíra",
-        link: "https://maps.app.goo.gl/mMJmUzAXFCe7QZ8n7",
+        link: "https://maps.app.goo.gl/P69SDyBivZfJULtr7",
       },
     ],
   },
@@ -113,7 +113,7 @@ const estados = [
       },
       {
         cidade: "Parnamirim",
-        loja: "Nordestão - Maria Lacerda",
+        loja: "Nordestão Nova Parnamirim",
         endereco: "Av. Maria Lacerda Montenegro",
         numero: "1400",
         bairro: "Nova Parnamirim",
