@@ -1,79 +1,79 @@
 [
   {
     "id": 1,
-    "imagem": "/assets/cortes/Filé de Peito - Cubo de peito cru.png",
+    "imagem": "https://cdn.yellowkite.cloud/public/inspiratto/assets/cortes/Fil%C3%A9%20de%20Peito%20-%20Cubo%20de%20peito%20cru.png",
     "alt": "Filé de peito em cubos",
-    "titulo": "Filé de peito",
+    "titulo": "Cubos de peito",
     "descricao": "Ideal para strogonoff e espetinhos"
   },
   {
     "id": 2,
-    "imagem": "/assets/cortes/Coxa e Sobrecoxa - Filé de coxa com sobrecoxa sem pele (cru).png",
-    "alt": "Coxa com sobrecoxa sem pele",
-    "titulo": "Coxa com sobrecoxa",
+    "imagem": "https://cdn.yellowkite.cloud/public/inspiratto/assets/cortes/Coxa%20e%20Sobrecoxa%20-%20Filé%20de%20coxa%20com%20sobrecoxa%20sem%20pele%20(cru).png",
+    "alt": "Coxa e sobrecoxa sem pele",
+    "titulo": "Coxa e sobrecoxa sem pele",
     "descricao": "Perfeito para assados com ervas"
   },
   {
     "id": 3,
-    "imagem": "/assets/cortes/COXA - Tulipa de coxa crua.png",
-    "alt": "Tulipa da coxinha",
-    "titulo": "Tulipa da coxinha",
-    "descricao": "Petisco crocante e suculento"
+    "imagem": "https://cdn.yellowkite.cloud/public/inspiratto/assets/cortes/COXA%20-%20Tulipa%20de%20coxa%20crua.png",
+    "alt": "Tulipa da coxa",
+    "titulo": "Tulipa da Coxa",
+    "descricao": "Ótima para fritar ou ensopar"
   },
   {
     "id": 4,
-    "imagem": "/assets/cortes/Filé de Peito - Medalhão de peito cru.png",
+    "imagem": "https://cdn.yellowkite.cloud/public/inspiratto/assets/cortes/Filé%20de%20Peito%20-%20Medalhão%20de%20peito%20cru.png",
     "alt": "Cortes para assados",
     "titulo": "Medalhão de peito",
-    "descricao": "Perfeito para preparar com legumes no forno"
+    "descricao": "Suculento e macio na grelha ou no forno"
   },
   {
     "id": 5,
-    "imagem": "/assets/cortes/ASA - Meio da asa crua.png",
+    "imagem": "https://cdn.yellowkite.cloud/public/inspiratto/assets/cortes/ASA%20-%20Meio%20da%20asa%20crua.png",
     "alt": "Meio da asa temperado",
     "titulo": "Meio da asa",
     "descricao": "Fácil de preparar na airfryer ou grelha"
   },
   {
     "id": 6,
-    "imagem": "/assets/cortes/FRANGO INTEIRO - Frango inteiro cru cortado em pedaços e embalado a vácuo.png",
+    "imagem": "https://cdn.yellowkite.cloud/public/inspiratto/assets/cortes/FRANGO%20INTEIRO%20-%20Frango%20inteiro%20cru%20cortado%20em%20pedaços%20e%20embalado%20a%20vácuo.png",
     "alt": "Frango temperado",
-    "titulo": "Corte temperado",
-    "descricao": "Para o preparo prático do dia a dia"
+    "titulo": "Frango inteiro a vácuo",
+    "descricao": "Clássico e prático para reunir a família"
   },
   {
     "id": 7,
-    "imagem": "/assets/cortes/FRANGO INTEIRO - ½ frango cru cortado em pedaços e embalado a vácuo.png",
+    "imagem": "https://cdn.yellowkite.cloud/public/inspiratto/assets/cortes/FRANGO%20INTEIRO%20-%20½%20frango%20cru%20cortado%20em%20pedaços%20e%20embalado%20a%20vácuo.png",
     "alt": "Filé grelhado",
-    "titulo": "Pedaços a vácuo",
-    "descricao": "Leve, nutritivo e rápido de fazer"
+    "titulo": "Meio frango a vácuo",
+    "descricao": "Cortes selecionados para receitas rápidas"
   },
   {
     "id": 8,
-    "imagem": "/assets/cortes/Filé de Peito - Bife de Peito.png",
+    "imagem": "https://cdn.yellowkite.cloud/public/inspiratto/assets/cortes/Filé%20de%20Peito%20-%20Bife%20de%20Peito.png",
     "alt": "Frango recheado",
     "titulo": "Bife de peito",
-    "descricao": "Experimente com queijos e ervas"
+    "descricao": "Versátil para grelhar, rechear ou empanar"
   },
   {
     "id": 9,
-    "imagem": "/assets/cortes/Filé de Peito - Tiras de Peito Cru.png",
+    "imagem": "https://cdn.yellowkite.cloud/public/inspiratto/assets/cortes/Filé%20de%20Peito%20-%20Tiras%20de%20Peito%20Cru.png",
     "alt": "Filezinho de frango",
-    "titulo": "Filezinho",
-    "descricao": "Ideal para empanar e servir com molhos"
+    "titulo": "Tiras de Peito",
+    "descricao": "Ótimo para empanar e servir com molho"
   },
   {
     "id": 10,
-    "imagem": "/assets/cortes/frango moido.png",
-    "alt": "Frango moído",
-    "titulo": "Frango moído",
-    "descricao": "Perfeito para almôndegas e recheios"
+    "imagem": "https://cdn.yellowkite.cloud/public/inspiratto/assets/cortes/COXA%20E%20SOBRECOXA%20-%20Filé%20de%20coxa%20com%20sobrecoxa%20com%20pele%20(cru).png",
+    "alt": "Coxa e sobrecoxa com pele",
+    "titulo": "Coxa e sobrecoxa com pele",
+    "descricao": "Crocante no forno ou na brasa"
   },
   {
     "id": 11,
-    "imagem": "/assets/cortes/espetinho.png",
-    "alt": "Espetinho de frango",
-    "titulo": "Espetinho",
-    "descricao": "Pronto para grelha ou churrasqueira"
+    "imagem": "https://cdn.yellowkite.cloud/public/inspiratto/assets/cortes/ASA%20-%20Tulipa%20da%20coxinha%20crua_corrigida.png",
+    "alt": "Tulipa da Coxinha",
+    "titulo": "Tulipa da Coxinha",
+    "descricao": "Petisco crocante e suculento"
   }
 ]

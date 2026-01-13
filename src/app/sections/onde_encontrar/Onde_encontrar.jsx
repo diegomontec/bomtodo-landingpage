@@ -5,6 +5,7 @@ import { useState } from "react";
 const estados = [
   {
     estado: "Paraíba",
+    textEstado: "na Paraíba",
     lojas: [
       {
         cidade: "João Pessoa",
@@ -14,35 +15,70 @@ const estados = [
         bairro: "Altiplano Cabo Branco",
         link: "https://maps.app.goo.gl/2mFjSgfdC2t3xGNz9",
       },
+      {
+        cidade: "João Pessoa",
+        loja: "Super Atacado Bom Todo Ruy Carneiro",
+        cnpj: "",
+        endereco: "Av. Sen. Ruy Carneiro",
+        numero: "180",
+        bairro: "Manaíra",
+        link: "https://maps.app.goo.gl/isw2wy11qtCtQfqN6",
+      },
+      {
+        cidade: "João Pessoa",
+        loja: "BeMais Aeroclube",
+        endereco: "R. Profa. Luzia Simões Bartolini",
+        numero: "55",
+        bairro: "Aeroclube",
+        link: "https://maps.app.goo.gl/4rEpGjP1W6KBEwLfA",
+      },
+      {
+        cidade: "João Pessoa",
+        loja: "BeMais Supermercados - Retão de Manaíra",
+        endereco: "Av. Gov. Flávio Ribeiro Coutinho",
+        numero: "615",
+        bairro: "Manaíra",
+        link: "https://maps.app.goo.gl/SA8c2HjAeG53oeqN7",
+      },
+      {
+        cidade: "João Pessoa",
+        loja: "BeMais Ruy Carneiro",
+        endereco: "Av. Sen. Ruy Carneiro",
+        numero: "320",
+        bairro: "Manaíra",
+        link: "https://maps.app.goo.gl/P69SDyBivZfJULtr7",
+      },
     ],
   },
   {
     estado: "Rio Grande do Norte",
+    textEstado: "no Rio Grande do Norte",
     lojas: [
       {
         cidade: "Natal",
-        loja: "Nordestão - Lagoa Nova",
-        endereco: "Av. Sen. Salgado Filho",
-        numero: "1656",
-        bairro: "Lagoa Nova",
-        link: "https://maps.app.goo.gl/WHvSXTxr5dC2tjko7",
-      },
-      {
-        cidade: "Natal",
-        loja: "Nordestão - Cidade Jardim",
+        loja: "Nordestão Cidade Jardim",
         endereco: "R. Leôncio Etelvino de Medeiros",
         numero: "2877",
         bairro: "Capim Macio",
-        link: "https://maps.app.goo.gl/bkybAat2NDKwApFw6",
+        link: "https://maps.app.goo.gl/MLfG5twEKjax3UkA6",
       },
       {
         cidade: "Natal",
-        loja: "Nordestão - Tirol",
+        loja: "Nordestão",
+        endereco: "Av. Sen. Salgado Filho",
+        numero: "1656",
+        bairro: "Lagoa Nova",
+        link: "https://maps.app.goo.gl/PZsLYhwVBgba2iB79",
+      },
+      {
+        cidade: "Natal",
+        loja: "Nordestão",
         endereco: "Av. Prudente de Morais",
         numero: "1140",
         bairro: "Tirol",
-        link: "https://maps.app.goo.gl/NHx7Czh9Te7SzQDc7",
+        link: "https://maps.app.goo.gl/du7chUTDi736tH1b7",
       },
+
       {
         cidade: "Natal",
         loja: "Nordestão - Ponta Negra",
@@ -77,7 +113,7 @@ const estados = [
       },
       {
         cidade: "Parnamirim",
-        loja: "Nordestão - Maria Lacerda",
+        loja: "Nordestão Nova Parnamirim",
         endereco: "Av. Maria Lacerda Montenegro",
         numero: "1400",
         bairro: "Nova Parnamirim",
@@ -113,7 +149,10 @@ export default function Onde_encontrar() {
   };
 
   return (
-    <section className="flex flex-col bg-bg-azul text-bg-creme relative border-y-4 border-[#EFBF04]" id="encontrar">
+    <section
+      className="flex flex-col bg-bg-azul text-bg-creme relative border-y-4 border-[#EFBF04]"
+      id="encontrar"
+    >
       <div className="w-full flex flex-col gap-16 justify-start items-center px-6 py-12 sm:px-8 sm:py-14 md:px-16 md:py-20 lg:px-24 lg:py-28 text-center">
         <div className="flex flex-col gap-4">
           <p className="text-2xl sm:text-3xl md:text-2xl font-descricao text-left md:text-center">
@@ -160,7 +199,7 @@ export default function Onde_encontrar() {
             </button>
 
             <h3 className="text-3xl font-bold mb-6 text-left">
-              Lojas em {estadoLojas.estado}
+              Lojas {estadoLojas.textEstado}
             </h3>
 
             <table className="w-full text-left border border-bg-creme sm:text-base">
